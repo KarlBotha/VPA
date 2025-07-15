@@ -48,18 +48,33 @@ pip install -r requirements-dev.txt
 python -m pytest tests/
 
 # Run the application
-python -m src.main
+python -m src.vpa start
+
+# Show configuration
+python -m src.vpa config-show
+
+# Get help
+python -m src.vpa --help
 ```
 
 ## Project Structure
 ```
 VPA/
 ├── src/                    # Source code
-├── tests/                  # Test files
-├── docs/                   # Documentation
-├── README.md              # This file
-├── CONTRIBUTING.md        # Contribution guidelines
-└── .gitignore            # Git ignore rules
+│   └── vpa/               # Main VPA package
+│       ├── core/          # Core application components
+│       ├── plugins/       # Plugin system
+│       ├── services/      # Service components  
+│       ├── cli/           # Command line interface
+│       └── gui/           # GUI components (future)
+├── config/                # Configuration files
+├── tests/                 # Test files
+├── docs/                  # Documentation
+├── requirements.txt       # Python dependencies
+├── pyproject.toml        # Modern Python packaging
+├── README.md             # This file
+├── CONTRIBUTING.md       # Contribution guidelines
+└── .gitignore           # Git ignore rules
 ```
 
 ## Documentation
