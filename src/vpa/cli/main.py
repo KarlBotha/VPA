@@ -17,6 +17,20 @@ def setup_logging(log_level: str = "INFO") -> None:
     )
 
 
+def validate_text_input(text: str) -> str:
+    """Validate and sanitize text input."""
+    if not text or not text.strip():
+        raise click.BadParameter("Text cannot be empty")
+    
+    # Basic sanitization - remove potentially dangerous characters
+    sanitized = ''.join(char for char in text if char.isprintable() or char.isspace())
+    
+    if len(sanitized) > 1000:
+        raise click.BadParameter("Text too long (max 1000 characters)")
+    
+    return sanitized.strip()
+
+
 @click.group()
 @click.option('--log-level', default='INFO', help='Set the logging level')
 @click.option('--config', help='Path to configuration file')
@@ -81,6 +95,69 @@ def config_show(ctx):
             
     except Exception as e:
         click.echo(f"Error reading config: {e}", err=True)
+
+
+# Audio commands group
+@cli.group()
+@click.pass_context
+def audio(ctx):
+    """Audio system commands."""
+    pass
+
+
+@audio.command()
+@click.argument('text')
+@click.option('--voice', help='Voice to use for speaking')
+@click.option('--rate', type=int, help='Speech rate (words per minute)')
+@click.option('--volume', type=float, help='Volume level (0.0-1.0)')
+@click.pass_context
+def speak(ctx, text, voice, rate, volume):
+    """Make VPA speak the given text."""
+    config_path = ctx.parent.obj.get('config')
+    
+    try:
+        # Validate text input
+        validated_text = validate_text_input(text)
+        
+        # Validate optional parameters
+        if rate is not None and (rate < 50 or rate > 400):
+            raise click.BadParameter("Rate must be between 50 and 400 words per minute")
+        
+        if volume is not None and (volume < 0.0 or volume > 1.0):
+            raise click.BadParameter("Volume must be between 0.0 and 1.0")
+        
+        app = App(config_path)
+        app.initialize()
+        
+        # Get audio plugin
+        audio_plugin = app.plugin_manager.get_plugin('audio')
+        if not audio_plugin:
+            click.echo("Error: Audio plugin not available", err=True)
+            sys.exit(1)
+        
+        # Set voice parameters if provided
+        if voice:
+            try:
+                audio_plugin.audio_engine.set_voice(voice)
+            except Exception as e:
+                click.echo(f"Warning: Could not set voice '{voice}': {e}", err=True)
+        
+        if rate:
+            audio_plugin.audio_engine.set_rate(rate)
+        
+        if volume:
+            audio_plugin.audio_engine.set_volume(volume)
+        
+        # Speak the text
+        click.echo(f"Speaking: {validated_text}")
+        audio_plugin.audio_engine.speak(validated_text)
+        
+    except click.BadParameter as e:
+        click.echo(f"Error: {e}", err=True)
+        sys.exit(1)
+    except Exception as e:
+        click.echo(f"Error: {e}", err=True)
+        sys.exit(1)
 
 
 def main():

@@ -17,6 +17,8 @@ import logging
 # Import existing VPA components
 from .database import ConversationDatabaseManager
 from .logging import get_structured_logger
+from .auth_providers import OAuth2Manager, GoogleOAuth2Provider, GitHubOAuth2Provider
+from .session_manager import SessionManager, SessionInfo
 
 logger = get_structured_logger(__name__)
 
@@ -73,6 +75,10 @@ class VPAAuthenticationManager:
         self.logger = logger
         self.active_sessions: Dict[str, AuthSession] = {}
         self.active_tokens: Dict[str, AuthToken] = {}
+        
+        # Initialize OAuth2 and session managers
+        self.oauth2_manager = OAuth2Manager()
+        self.session_manager = SessionManager(db_manager)
         
         # Security settings
         self.session_timeout = timedelta(hours=24)
@@ -622,7 +628,7 @@ def create_auth_manager(db_manager: ConversationDatabaseManager) -> VPAAuthentic
     return VPAAuthenticationManager(db_manager)
 
 
-def require_authentication(session_id: str, auth_manager: VPAAuthenticationManager) -> Optional[AuthSession]:
+def require_authentication(session_id: str, auth_manager: Optional[VPAAuthenticationManager] = None) -> Optional[AuthSession]:
     """
     Decorator/helper function to require authentication
     
@@ -633,10 +639,12 @@ def require_authentication(session_id: str, auth_manager: VPAAuthenticationManag
     Returns:
         AuthSession if authenticated, None otherwise
     """
+    if auth_manager is None:
+        raise ValueError("Authentication manager is required")
     return auth_manager.validate_session(session_id)
 
 
-def authenticate_user(username: str, password: str, auth_manager: VPAAuthenticationManager) -> Dict[str, Any]:
+def authenticate_user(username: str, password: str, auth_manager: Optional[VPAAuthenticationManager] = None) -> Dict[str, Any]:
     """
     Convenience function for user authentication
     
@@ -648,11 +656,13 @@ def authenticate_user(username: str, password: str, auth_manager: VPAAuthenticat
     Returns:
         Authentication result dictionary
     """
+    if auth_manager is None:
+        raise ValueError("Authentication manager is required")
     return auth_manager.authenticate_user(username, password)
 
 
 def register_user(username: str, password: str, email: Optional[str] = None, 
-                 auth_manager: VPAAuthenticationManager = None) -> Dict[str, Any]:
+                 auth_manager: Optional[VPAAuthenticationManager] = None) -> Dict[str, Any]:
     """
     Convenience function for user registration
     
@@ -665,4 +675,6 @@ def register_user(username: str, password: str, email: Optional[str] = None,
     Returns:
         Registration result dictionary
     """
+    if auth_manager is None:
+        raise ValueError("Authentication manager is required")
     return auth_manager.register_user(username, password, email)

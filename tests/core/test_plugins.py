@@ -174,7 +174,11 @@ class TestPluginManager:
             
             mock_module.Plugin.assert_called_once_with(plugin_manager.event_bus)
             assert plugin_manager.loaded_plugins["test_plugin"] is mock_plugin_instance
-            mock_logger.info.assert_called_with("Loaded plugin: test_plugin")
+            # Updated assertion to match performance-enhanced logging format
+            mock_logger.info.assert_called_once()
+            log_call_args = mock_logger.info.call_args[0][0]
+            assert "Loaded plugin: test_plugin" in log_call_args
+            assert "s)" in log_call_args  # Contains timing information
             mock_emit.assert_called_once_with("plugin.loaded", {"name": "test_plugin", "instance": mock_plugin_instance})
     
     def test_load_plugin_with_initialize_function(self, plugin_manager):
@@ -192,7 +196,11 @@ class TestPluginManager:
             
             mock_module.initialize.assert_called_once_with(plugin_manager.event_bus)
             assert plugin_manager.loaded_plugins["test_plugin"] is mock_plugin_instance
-            mock_logger.info.assert_called_with("Loaded plugin: test_plugin")
+            # Updated assertion to match performance-enhanced logging format
+            mock_logger.info.assert_called_once()
+            log_call_args = mock_logger.info.call_args[0][0]
+            assert "Loaded plugin: test_plugin" in log_call_args
+            assert "s)" in log_call_args  # Contains timing information
             mock_emit.assert_called_once_with("plugin.loaded", {"name": "test_plugin", "instance": mock_plugin_instance})
     
     def test_load_plugin_no_valid_interface(self, plugin_manager):
@@ -459,7 +467,9 @@ class TestPluginManager:
             with patch('os.path.exists', return_value=True), \
                  patch('importlib.import_module', return_value=mock_module):
                 plugin_manager._load_plugin("test")
-                mock_logger.info.assert_any_call("Loaded plugin: test")
+                # Updated assertion to match performance-enhanced logging
+                info_calls = [call[0][0] for call in mock_logger.info.call_args_list]
+                assert any("Loaded plugin: test" in call for call in info_calls)
 
 
 if __name__ == '__main__':

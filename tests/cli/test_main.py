@@ -60,7 +60,7 @@ class TestCLIGroup:
         """Test CLI group with custom log level."""
         runner = CliRunner()
         with patch('vpa.cli.main.setup_logging') as mock_setup:
-            result = runner.invoke(cli, ['--log-level', 'DEBUG', '--help'])
+            result = runner.invoke(cli, ['--log-level', 'DEBUG', 'status'])
             assert result.exit_code == 0
             mock_setup.assert_called_once_with('DEBUG')
     
@@ -229,13 +229,15 @@ class TestAudioCommands:
         
         with patch('vpa.cli.main.App') as mock_app_class:
             mock_app = Mock()
+            mock_plugin = Mock()
+            mock_app.plugin_manager.get_plugin.return_value = mock_plugin
             mock_app_class.return_value = mock_app
             
             result = runner.invoke(cli, ['audio', 'speak', 'Hello world'])
             
-            # Note: The speak command is incomplete in the source
-            # This test ensures the command structure is correct
-            assert 'Hello world' in str(result)
+            # Check that the command executes successfully and outputs the expected text
+            assert result.exit_code == 0
+            assert 'Hello world' in result.output
     
     def test_audio_speak_empty_text(self):
         """Test audio speak with empty text."""
@@ -257,7 +259,7 @@ class TestCLIParameterValidation:
         valid_levels = ['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL']
         for level in valid_levels:
             with patch('vpa.cli.main.setup_logging') as mock_setup:
-                result = runner.invoke(cli, ['--log-level', level, '--help'])
+                result = runner.invoke(cli, ['--log-level', level, 'status'])
                 assert result.exit_code == 0
                 mock_setup.assert_called_once_with(level)
     

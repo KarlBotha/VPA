@@ -1,16 +1,63 @@
-# VPA Core Dependencies
+# VPA - Virtual Personal Assistant
+# Core Dependencies for Phase 2 GUI Implementation
+
+# Core Framework Dependencies
 pyyaml>=6.0
 click>=8.0.0
 
-# Future dependencies will be added as needed:
-# For voice functionality:
-# pyttsx3>=2.90
-# 
-# For LLM integration:
+# GUI Dependencies
+# Note: Using standard tkinter (built into Python) for Phase 2
+# Future versions may migrate to CustomTkinter for enhanced UI
+
+# AI and Voice Dependencies
+pyttsx3>=2.99
+edge-tts>=7.0.0
+
+# Audio and Media
+pygame>=2.6.0
+
+# System Integration (Windows)
+pywin32>=311
+psutil>=7.0.0
+
+# Network and HTTP
+aiohttp>=3.12.0
+aiosignal>=1.4.0
+
+# Security and Encryption
+cryptography>=45.0.0
+
+# Development and Testing Dependencies
+pytest>=8.4.0
+pytest-asyncio>=1.1.0
+pytest-cov>=6.2.0
+pytest-mock>=3.14.0
+coverage>=7.9.0
+
+# Build and Packaging
+packaging>=25.0
+setuptools>=61.0
+wheel
+
+# Optional Dependencies for Enhanced Features
+# Uncomment as needed for specific deployments
+
+# For enhanced voice synthesis:
+# TTS>=0.15.0
+
+# For advanced AI integration:
 # ollama>=0.1.0
-# 
-# For GUI:
+# transformers>=4.20.0
+
+# For modern GUI (future upgrade):
 # customtkinter>=5.2.0
-# 
-# For encryption:
-# cryptography>=41.0.0
+
+# For OCR capabilities:
+# pytesseract>=0.3.0
+# Pillow>=9.0.0
+
+# For document processing:
+# python-docx>=0.8.0
+# pypdf>=3.0.0
+
+# Platform-specific dependencies handled by installation scripts

@@ -25,6 +25,12 @@ requires-python = ">=3.9"
 dependencies = [
     "pyyaml>=6.0",
     "click>=8.0.0",
+    "pyttsx3>=2.99",
+    "edge-tts>=7.0.0",
+    "pygame>=2.6.0",
+    "psutil>=7.0.0",
+    "aiohttp>=3.12.0",
+    "cryptography>=45.0.0",
 ]
 
 [project.optional-dependencies]
@@ -50,7 +56,8 @@ security = [
 ]
 
 [project.scripts]
-vpa = "vpa.cli.main:main"
+vpa-main = "vpa.__main__:main"
+vpa-cli = "vpa.cli.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -61,6 +68,9 @@ python_files = ["test_*.py", "*_test.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 addopts = "--cov=vpa --cov-report=term-missing --cov-report=html"
+markers = [
+    "integration: marks tests as integration tests (deselect with '-m \"not integration\"')",
+]
 
 [tool.black]
 line-length = 88

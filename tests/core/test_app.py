@@ -63,7 +63,9 @@ class TestApp:
             
             # Verify logging
             mock_logger.info.assert_any_call("Initializing VPA application...")
-            mock_logger.info.assert_any_call("VPA application initialized successfully")
+            # Check for successful initialization with timing info
+            calls = [call.args[0] for call in mock_logger.info.call_args_list]
+            assert any("VPA application initialized successfully" in call for call in calls)
     
     def test_initialize_config_loading(self):
         """Test that initialize properly loads configuration"""
@@ -344,7 +346,9 @@ class TestApp:
                 
                 # Should log initialization messages
                 mock_logger.info.assert_any_call("Initializing VPA application...")
-                mock_logger.info.assert_any_call("VPA application initialized successfully")
+                # Check for successful initialization with timing info
+                calls = [call.args[0] for call in mock_logger.info.call_args_list]
+                assert any("VPA application initialized successfully" in call for call in calls)
     
     def test_state_consistency_after_errors(self):
         """Test that application state remains consistent after errors"""

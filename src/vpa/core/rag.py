@@ -233,13 +233,13 @@ class VPARAGSystem:
     @contextmanager
     def _get_connection(self):
         """Get database connection with proper cleanup"""
-        conn = None
+        # Use database manager's connection - don't close it as it's managed by db_manager
+        conn = self.db_manager._get_connection()
         try:
-            conn = self.db_manager._get_connection()
             yield conn
         finally:
-            if conn:
-                conn.close()
+            # Don't close the connection - it's managed by the database manager
+            pass
 
     def ingest_document(self, user_id: str, content: str, filename: str,
                        file_type: str = "text", metadata: Optional[Dict[str, Any]] = None) -> str:
@@ -311,7 +311,9 @@ class VPARAGSystem:
 
     def _generate_document_id(self, user_id: str, filename: str, content: str) -> str:
         """Generate unique document ID"""
-        unique_string = f"{user_id}_{filename}_{len(content)}_{datetime.now().isoformat()}"
+        # Use deterministic inputs for consistent ID generation
+        content_hash = hashlib.sha256(content.encode()).hexdigest()[:8]
+        unique_string = f"{user_id}_{filename}_{len(content)}_{content_hash}"
         return hashlib.sha256(unique_string.encode()).hexdigest()[:16]
 
     def _chunk_text(self, text: str) -> List[str]:
