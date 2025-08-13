@@ -1,0 +1,37 @@
+{
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        ".venv/**": true,
+        "venv/**": true,
+        "env/**": true,
+        "*.egg-info/**": true,
+        ".pytest_cache/**": true,
+        "archive_optimization/**": true
+    },
+    "search.exclude": {
+        ".venv/**": true,
+        "venv/**": true,
+        "env/**": true,
+        "archive_optimization/**": true
+    },
+    "files.watcherExclude": {
+        ".venv/**": true,
+        "venv/**": true,
+        "env/**": true,
+        "archive_optimization/**": true
+    },
+    "python.analysis.exclude": [
+        ".venv",
+        "venv",
+        "env",
+        "archive_optimization"
+    ],
+    "python.analysis.indexing": false,
+    "python.analysis.packageIndexDepths": [
+        {
+            "name": "",
+            "depth": 2
+        }
+    ]
+}

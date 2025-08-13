@@ -1,0 +1,8 @@
+{
+  "preferred_voice": "en-US-JennyNeural",
+  "speech_rate": "+0%",
+  "speech_volume": "+10%",
+  "speech_pitch": "+0Hz",
+  "auto_speak_responses": true,
+  "voice_confirmation_enabled": true
+}

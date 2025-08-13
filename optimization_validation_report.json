@@ -1,0 +1,37 @@
+{
+  "timestamp": 1753249890.7931557,
+  "total_tests": 4,
+  "successful_tests": 4,
+  "success_rate": 100.0,
+  "test_results": {
+    "eventbus_optimized": {
+      "success": true,
+      "init_time": 0.0
+    },
+    "cache_manager": {
+      "success": true,
+      "cache_effectiveness": 100.0,
+      "first_call_time": 0.013399362564086914,
+      "cached_call_time": 0.0
+    },
+    "response_optimizer": {
+      "success": true,
+      "optimization_effectiveness": 100.0,
+      "first_request_time": 0.01758718490600586,
+      "cached_request_time": 0.0,
+      "cache_stats": {
+        "total_cached_responses": 1,
+        "total_cache_hits": 1,
+        "cache_hit_ratio": 1.0,
+        "queue_size": 1
+      }
+    },
+    "performance_monitor": {
+      "success": true,
+      "setup_time": 0.11226153373718262,
+      "metrics_count": 2,
+      "performance_score": 95.13151041666667
+    }
+  },
+  "optimization_status": "COMPLETE"
+}
