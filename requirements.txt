@@ -1,0 +1,40 @@
+# VPA (Virtual Personal Assistant) - Core Dependencies
+# Event-driven, modular VPA with plugin architecture
+
+# Core framework
+psutil>=5.9.0              # Performance monitoring
+pyyaml>=6.0                # Configuration management
+click>=8.0.0               # CLI interface
+
+# Audio & TTS system (13-voice catalog)
+pyttsx3>=2.90              # Text-to-speech engine
+edge-tts>=7.0.0            # Edge TTS voices
+pygame>=2.6.0              # Audio playback
+
+# Async & networking
+aiohttp>=3.12.0            # Async HTTP client/server
+asyncio                    # Async operations (stdlib)
+
+# Security
+cryptography>=41.0.0       # Cryptographic operations
+
+# Testing framework
+pytest>=7.0.0              # Test framework
+pytest-asyncio>=0.21.0     # Async test support
+pytest-cov>=4.0.0          # Coverage reporting
+pytest-mock>=3.0           # Mock support
+
+# Development tools (commented - install separately for dev)
+# black>=23.0              # Code formatting
+# flake8>=6.0              # Linting
+# mypy>=1.0                # Type checking
+
+# GUI (optional - uncomment if GUI needed)
+# customtkinter>=5.2.0     # Modern GUI framework
+
+# LLM integration (optional - uncomment if LLM needed)  
+# ollama>=0.1.0            # Local LLM support
+
+# Windows-specific (auto-installed on Windows)
+# pywin32>=311             # Windows API access
+# comtypes>=1.4.0          # COM interface support

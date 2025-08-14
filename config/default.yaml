@@ -1,0 +1,199 @@
+# VPA Default Configuration
+# Event-driven Virtual Personal Assistant
+
+app:
+  profile: default
+  log_level: INFO
+  data_dir: .vpa
+  startup_timeout: 10  # seconds
+  max_memory_mb: 2048
+  debug_mode: false
+
+# Performance monitoring targets
+performance:
+  startup_time_target: 10.0      # seconds
+  memory_target_mb: 2048         # MB
+  event_dispatch_target_ms: 10   # milliseconds
+  tts_response_target_s: 2.0     # seconds
+  enable_monitoring: true
+  log_performance_metrics: true
+
+# Event bus configuration
+events:
+  max_listeners: 100
+  timeout_ms: 10
+  enable_async: true
+  buffer_size: 1000
+  retry_attempts: 3
+
+# Plugin system
+plugins:
+  auto_discover: true
+  cache_enabled: true
+  cache_file: plugin_cache.json
+  load_timeout: 5.0
+  directories:
+    - src/plugins
+    - plugins
+  priority_order:
+    - core
+    - audio
+    - gui
+    - integrations
+
+# Voice system (13-voice catalog)
+voices:
+  default_engine: pyttsx3
+  engines:
+    pyttsx3:
+      rate: 200
+      volume: 0.8
+      voice_id: default
+    edge_tts:
+      rate: 1.0
+      volume: 1.0
+      voice: "en-US-AriaNeural"
+  
+  # 13-voice catalog
+  catalog:
+    voice_01:
+      name: "Aria"
+      engine: "edge_tts"
+      voice: "en-US-AriaNeural" 
+      gender: "female"
+      accent: "US"
+    voice_02:
+      name: "Davis"
+      engine: "edge_tts"
+      voice: "en-US-DavisNeural"
+      gender: "male"
+      accent: "US"
+    voice_03:
+      name: "Jenny"
+      engine: "edge_tts"
+      voice: "en-US-JennyNeural"
+      gender: "female"
+      accent: "US"
+    voice_04:
+      name: "Guy"
+      engine: "edge_tts"
+      voice: "en-US-GuyNeural"
+      gender: "male"
+      accent: "US"
+    voice_05:
+      name: "Ana"
+      engine: "edge_tts"
+      voice: "en-US-AnaNeural"
+      gender: "female"
+      accent: "US"
+    voice_06:
+      name: "Christopher"
+      engine: "edge_tts"
+      voice: "en-US-ChristopherNeural"
+      gender: "male"
+      accent: "US"
+    voice_07:
+      name: "Elizabeth"
+      engine: "edge_tts"
+      voice: "en-US-ElizabethNeural"
+      gender: "female" 
+      accent: "US"
+    voice_08:
+      name: "Eric"
+      engine: "edge_tts"
+      voice: "en-US-EricNeural"
+      gender: "male"
+      accent: "US"
+    voice_09:
+      name: "Michelle"
+      engine: "edge_tts"
+      voice: "en-US-MichelleNeural"
+      gender: "female"
+      accent: "US"
+    voice_10:
+      name: "Roger"
+      engine: "edge_tts" 
+      voice: "en-US-RogerNeural"
+      gender: "male"
+      accent: "US"
+    voice_11:
+      name: "Steffan"
+      engine: "edge_tts"
+      voice: "en-US-SteffanNeural"
+      gender: "male"
+      accent: "US"
+    voice_12:
+      name: "Libby"
+      engine: "pyttsx3"
+      voice_id: 0
+      gender: "female"
+      accent: "US"
+    voice_13:
+      name: "David"
+      engine: "pyttsx3" 
+      voice_id: 1
+      gender: "male"
+      accent: "US"
+
+# Audio system
+audio:
+  sample_rate: 44100
+  channels: 2
+  buffer_size: 1024
+  timeout_seconds: 2.0
+  enable_noise_reduction: false
+  enable_echo_cancellation: false
+
+# Logging configuration
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: .vpa/logs/vpa.log
+  max_size_mb: 10
+  backup_count: 5
+  console_output: true
+  structured_logging: false
+
+# Security settings
+security:
+  enable_encryption: false
+  jwt_secret_key: ""
+  session_timeout_minutes: 60
+  allowed_hosts: ["127.0.0.1", "localhost"]
+  cors_enabled: false
+
+# Network configuration
+network:
+  http_port: 8080
+  https_port: 8443
+  bind_address: "127.0.0.1"
+  max_connections: 100
+  timeout_seconds: 30
+
+# GUI configuration (optional)
+gui:
+  enabled: false
+  theme: dark
+  window:
+    width: 800
+    height: 600
+    resizable: true
+    center_on_screen: true
+  system_tray: true
+  auto_hide: false
+
+# Windows integration
+windows:
+  enable_win32: true
+  enable_com: true
+  startup_with_windows: false
+  register_protocols: false
+  enable_notifications: true
+
+# Development settings
+development:
+  hot_reload: false
+  skip_performance_checks: false
+  enable_debug_server: false
+  debug_port: 9999
+  mock_external_apis: false
