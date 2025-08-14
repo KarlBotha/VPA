@@ -90,15 +90,19 @@ def launch_gui(app: App) -> int:
         return 1
 
 
-def launch_cli(config_path: Optional[str] = None) -> int:
+def launch_cli(config_path: Optional[str] = None, cli_args: list = None) -> int:
     """Launch the CLI application"""
     logger = logging.getLogger(__name__)
     
     try:
         logger.info("🖥️ Starting VPA CLI Application...")
         
-        # Use the existing CLI system
-        sys.argv = ['vpa-cli'] + (sys.argv[1:] if len(sys.argv) > 1 else ['--help'])
+        # Use provided cli_args or default to help
+        if cli_args:
+            sys.argv = ['vpa-cli'] + cli_args
+        else:
+            sys.argv = ['vpa-cli', '--help']
+        
         cli()
         return 0
         
@@ -153,7 +157,7 @@ Examples:
         version='VPA 0.1.0 - Phase 2'
     )
     
-    args = parser.parse_args()
+    args, unknown_args = parser.parse_known_args()
     
     # Setup logging
     setup_logging(args.log_level)
@@ -178,7 +182,8 @@ Examples:
         # Determine launch mode
         if args.cli:
             mode = "CLI"
-            exit_code = launch_cli(args.config)
+            # Use unknown_args for CLI commands
+            exit_code = launch_cli(args.config, unknown_args)
         elif args.gui:
             mode = "GUI"
             exit_code = launch_gui(app)
