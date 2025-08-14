@@ -1,0 +1,5 @@
+Import time: 37.6ms
+Memory usage: 21.5MB (delta: +4.5MB)
+Python version: 3.11.9
+Working directory: C:\Users\KarlBotha\AI_PROJECTS\VPA
+Performance baseline: COLLECTED

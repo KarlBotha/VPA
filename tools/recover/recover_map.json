@@ -1,0 +1,31 @@
+{
+  "gui_manager": [],
+  "login_form": [],
+  "registration": [],
+  "settings_panel": [
+    "archive\\unused_ui_system\\ui\\components\\settings_panel.py"
+  ],
+  "oauth_callback": [],
+  "email_handler": [],
+  "llm_client": [],
+  "stt_engine": [],
+  "tts_engine": [],
+  "plugin_loader": [],
+  "event_handler": [],
+  "auth_manager": [],
+  "db_manager": [],
+  "config_manager": [],
+  "app_launcher": [
+    "archive\\audio_diagnostics.py",
+    "archive\\comprehensive_validation.py",
+    "archive\\edge_tts_voice_system.py",
+    "archive\\install_edge_tts.py",
+    "archive\\voice_configuration_system.py"
+  ],
+  "ui_builder": [],
+  "voice_commands": [],
+  "security_layer": [],
+  "notification_system": [],
+  "file_manager": [],
+  "scheduler": []
+}

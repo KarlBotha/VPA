@@ -1,0 +1,6 @@
+# One path per line. Environment variables are allowed. These will be scanned in addition to repo archives.
+%USERPROFILE%\AI_PROJECTS\VPA
+%USERPROFILE%\Desktop
+%USERPROFILE%\Documents
+%USERPROFILE%\Downloads
+%USERPROFILE%\OneDrive\Documents
