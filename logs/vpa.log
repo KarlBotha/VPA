@@ -163,3 +163,11 @@
 2025-08-13 17:03:51,845 - vpa.core.resource_monitor_core - INFO - Resource monitoring loop started
 2025-08-13 17:03:51,845 - vpa.core.resource_monitor_core - INFO - Resource monitoring started successfully
 2025-08-13 17:03:51,845 - vpa.core.app - INFO - VPA application initialized successfully in 0.093s
+2025-08-14 23:22:27,642 - __main__ - INFO - ============================================================
+2025-08-14 23:22:27,655 - __main__ - INFO - ============================================================
+2025-08-14 23:22:27,655 - __main__ - WARNING - Not running in virtual environment - this is not recommended
+2025-08-14 23:22:27,655 - __main__ - INFO - Environment check passed
+2025-08-14 23:43:16,895 - __main__ - INFO - ============================================================
+2025-08-14 23:43:16,898 - __main__ - INFO - ============================================================
+2025-08-14 23:43:16,898 - __main__ - WARNING - Not running in virtual environment - this is not recommended
+2025-08-14 23:43:16,898 - __main__ - INFO - Environment check passed

@@ -1,0 +1,338 @@
+187 INFO: PyInstaller: 6.14.2, contrib hooks: 2025.5
+187 INFO: Python: 3.11.9
+193 INFO: Platform: Windows-10-10.0.26100-SP0
+193 INFO: Python environment: C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311
+572 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src',
+ 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA',
+ 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src',
+ 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\python311.zip',
+ 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\DLLs',
+ 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib',
+ 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311',
+ 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages',
+ 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\win32',
+ 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\Pythonwin',
+ 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA',
+ 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src']
+pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+952 INFO: Appending 'datas' from .spec
+952 INFO: checking Analysis
+952 INFO: Building Analysis because Analysis-00.toc is non existent
+952 INFO: Running Analysis Analysis-00.toc
+952 INFO: Target bytecode optimization level: 0
+952 INFO: Initializing module dependency graph...
+953 INFO: Initializing module graph hook caches...
+1006 INFO: Analyzing modules for base_library.zip ...
+2014 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+2093 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+3501 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+5242 INFO: Caching module dependency graph...
+5272 INFO: Looking for Python shared library...
+5276 INFO: Using Python shared library: C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\python311.dll
+5276 INFO: Analyzing C:\Users\KarlBotha\AI_PROJECTS\VPA\_vpa_runner.py
+5333 INFO: Analyzing hidden import 'vpa'
+5560 INFO: Processing standard module hook 'hook-cryptography.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+6340 INFO: hook-cryptography: cryptography does not seem to be using dynamically linked OpenSSL.
+6673 INFO: Processing standard module hook 'hook-bcrypt.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+6850 INFO: Analyzing hidden import 'vpa.__main__'
+6981 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+7113 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+7752 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+7752 INFO: SetuptoolsInfo: initializing cached setuptools info...
+8308 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+8345 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+8443 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8463 INFO: Processing standard module hook 'hook-importlib_metadata.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+8482 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+8538 INFO: Analyzing hidden import 'vpa._version'
+8538 INFO: Analyzing hidden import 'vpa.addons'
+8540 INFO: Analyzing hidden import 'vpa.addons.addon_manager'
+8540 INFO: Analyzing hidden import 'vpa.addons.base_addon'
+8540 INFO: Analyzing hidden import 'vpa.addons.google'
+8541 INFO: Analyzing hidden import 'vpa.addons.google.google_addon'
+8541 INFO: Analyzing hidden import 'vpa.addons.whatsapp'
+8541 INFO: Analyzing hidden import 'vpa.addons.whatsapp.whatsapp_addon'
+8542 INFO: Analyzing hidden import 'vpa.ai'
+8642 INFO: Analyzing hidden import 'vpa.ai.addon_logic.discord_logic_enhanced'
+8642 INFO: Analyzing hidden import 'vpa.ai.addon_logic.google_logic_clean'
+8643 INFO: Analyzing hidden import 'vpa.ai.addon_logic.microsoft_logic_clean'
+8643 INFO: Analyzing hidden import 'vpa.ai.addon_logic.telegram_logic_enhanced'
+8643 INFO: Analyzing hidden import 'vpa.ai.addon_logic.weather_logic_enhanced'
+8644 INFO: Analyzing hidden import 'vpa.ai.addon_logic.websearch_logic_enhanced'
+8644 INFO: Analyzing hidden import 'vpa.ai.addon_logic.whatsapp_logic_enhanced'
+8644 INFO: Analyzing hidden import 'vpa.ai.addon_logic.windows_logic_enhanced'
+8644 INFO: Analyzing hidden import 'vpa.ai.ai_coordinator'
+8645 INFO: Analyzing hidden import 'vpa.cli.main_enhanced'
+8650 INFO: Analyzing hidden import 'vpa.config'
+8651 INFO: Analyzing hidden import 'vpa.core.addon_tab'
+8651 INFO: Analyzing hidden import 'vpa.core.advanced_analytics_proactive_optimization'
+8684 INFO: Processing standard module hook 'hook-sklearn.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9290 INFO: Processing standard module hook 'hook-sklearn.utils.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9560 INFO: Processing standard module hook 'hook-psutil.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9978 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+10230 INFO: Processing standard module hook 'hook-torch.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+2100 WARNING: Failed to collect submodules for 'torch.utils.tensorboard' because importing 'torch.utils.tensorboard' raised: ModuleNotFoundError: No module named 'tensorboard'
+W0814 21:51:23.222000 6276 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharding_spec` will be deprecated, use `torch.distributed._shard.sharding_spec` instead
+  __import__(name)
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._sharded_tensor` will be deprecated, use `torch.distributed._shard.sharded_tensor` instead
+  __import__(name)
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\utils\hooks\__init__.py:665: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  __import__(name)
+20340 INFO: hook-torch: this torch build does not depend on MKL...
+20341 INFO: hook-torch: raising recursion limit to 5000
+20546 INFO: Processing standard module hook 'hook-sympy.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+22652 INFO: Processing standard module hook 'hook-py.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+22894 INFO: Processing standard module hook 'hook-pygments.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+24043 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+24180 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+24488 INFO: Processing standard module hook 'hook-pytest.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+24780 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+34518 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+34572 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+34953 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+35449 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+35460 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+35460 INFO: Processing pre-find-module-path hook 'hook-distutils.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+35813 INFO: Processing standard module hook 'hook-distutils.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+35877 INFO: Processing standard module hook 'hook-distutils.util.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+35927 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+37473 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+38424 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+38736 INFO: Processing standard module hook 'hook-lxml.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+39060 INFO: Processing standard module hook 'hook-lxml.etree.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+42910 INFO: Processing standard module hook 'hook-pandas.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+43968 INFO: Processing standard module hook 'hook-pytz.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+45597 INFO: Processing standard module hook 'hook-pandas.io.formats.style.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+47443 INFO: Processing standard module hook 'hook-dateutil.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+47558 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+47908 INFO: Processing standard module hook 'hook-pandas.plotting.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+48149 INFO: Processing standard module hook 'hook-numba.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+48181 INFO: Processing standard module hook 'hook-llvmlite.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+49597 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+51443 INFO: Processing standard module hook 'hook-jinja2.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+53153 INFO: Processing pre-safe-import-module hook 'hook-win32com.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+53203 INFO: Processing standard module hook 'hook-win32com.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+53208 INFO: Processing standard module hook 'hook-pythoncom.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+53266 INFO: Processing standard module hook 'hook-pywintypes.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+54637 INFO: Processing standard module hook 'hook-openpyxl.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+55246 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+56677 INFO: Processing standard module hook 'hook-sqlalchemy.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+59907 INFO: Processing standard module hook 'hook-pandas.io.clipboard.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+61141 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+61628 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+61775 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+62124 INFO: Processing standard module hook 'hook-fsspec.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+63652 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+69543 INFO: Processing standard module hook 'hook-wcwidth.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+72422 INFO: Processing standard module hook 'hook-transformers.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+81302 INFO: Processing standard module hook 'hook-pydantic.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+  warnings.warn(
+83519 INFO: Processing standard module hook 'hook-zoneinfo.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+84041 INFO: Processing standard module hook 'hook-anyio.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+85375 INFO: Processing standard module hook 'hook-dns.rdata.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+89394 INFO: Processing standard module hook 'hook-orjson.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+89632 INFO: Processing pre-safe-import-module hook 'hook-tensorflow.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+91071 INFO: Processing standard module hook 'hook-regex.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+92600 INFO: Processing standard module hook 'hook-torchvision.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+92770 INFO: Processing standard module hook 'hook-torchvision.io.image.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+94980 INFO: Processing standard module hook 'hook-shelve.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+96809 INFO: Processing standard module hook 'hook-cv2.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+98643 INFO: Processing standard module hook 'hook-sklearn.metrics.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+100427 INFO: Processing standard module hook 'hook-sklearn.metrics.cluster.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+100762 INFO: Processing standard module hook 'hook-sklearn.cluster.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+100859 INFO: Processing standard module hook 'hook-sklearn.metrics.pairwise.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+101070 INFO: Processing standard module hook 'hook-sklearn.neighbors.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+101187 INFO: Processing standard module hook 'hook-sklearn.linear_model.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+130440 INFO: Processing standard module hook 'hook-sklearn.externals.array_api_compat.numpy.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+130501 INFO: Processing standard module hook 'hook-sklearn.externals.array_api_compat.cupy.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+130528 INFO: Processing standard module hook 'hook-sklearn.externals.array_api_compat.torch.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+130564 INFO: Processing standard module hook 'hook-sklearn.externals.array_api_compat.dask.array.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+130780 INFO: Processing standard module hook 'hook-sklearn.tree.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+131225 INFO: Analyzing hidden import 'vpa.core.auth'
+131268 INFO: Analyzing hidden import 'vpa.core.auth_coordinator'
+131268 INFO: Analyzing hidden import 'vpa.core.auto_login'
+131268 INFO: Analyzing hidden import 'vpa.core.base_app'
+131273 INFO: Analyzing hidden import 'vpa.core.cache_manager'
+131275 INFO: Analyzing hidden import 'vpa.core.chat_coordinator'
+131276 INFO: Analyzing hidden import 'vpa.core.continuous_improvement_monitoring'
+131287 INFO: Analyzing hidden import 'vpa.core.document_processor'
+131287 INFO: Analyzing hidden import 'vpa.core.enhanced_audio_gui'
+131287 INFO: Analyzing hidden import 'vpa.core.enhanced_llm_integration'
+131335 INFO: Analyzing hidden import 'vpa.core.enhanced_settings'
+131335 INFO: Analyzing hidden import 'vpa.core.events_optimized'
+131337 INFO: Analyzing hidden import 'vpa.core.feature_flags'
+131345 INFO: Analyzing hidden import 'vpa.core.global_production_deployment'
+131355 INFO: Analyzing hidden import 'vpa.core.global_rollout_manager'
+131368 INFO: Analyzing hidden import 'vpa.core.global_scale_operations'
+131380 INFO: Analyzing hidden import 'vpa.core.health'
+131393 INFO: Analyzing hidden import 'vpa.core.llm_auto_setup'
+131394 INFO: Analyzing hidden import 'vpa.core.llm_provider_manager'
+133963 INFO: Processing standard module hook 'hook-websockets.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+135983 INFO: Analyzing hidden import 'vpa.core.oauth_config'
+135984 INFO: Analyzing hidden import 'vpa.core.performance_monitor'
+135986 INFO: Analyzing hidden import 'vpa.core.plugin_boundaries'
+135994 INFO: Analyzing hidden import 'vpa.core.quality_ux_enhancements'
+136011 INFO: Analyzing hidden import 'vpa.core.realtime_stt'
+136011 INFO: Analyzing hidden import 'vpa.core.resource_monitor_core'
+136012 INFO: Analyzing hidden import 'vpa.core.resource_monitoring'
+136012 INFO: Analyzing hidden import 'vpa.core.response_optimizer'
+136014 INFO: Analyzing hidden import 'vpa.core.scalability_reliability_upgrades'
+136027 INFO: Analyzing hidden import 'vpa.core.time_monitor'
+136027 INFO: Analyzing hidden import 'vpa.core.transcript_manager'
+136027 INFO: Analyzing hidden import 'vpa.core.unified_audio_system'
+136027 INFO: Analyzing hidden import 'vpa.core.voice_interface'
+136027 INFO: Analyzing hidden import 'vpa.core.vpa_logging'
+136032 INFO: Analyzing hidden import 'vpa.gui.adapters'
+136032 INFO: Analyzing hidden import 'vpa.gui.adapters.adapter_manager'
+136033 INFO: Analyzing hidden import 'vpa.gui.adapters.core_adapters'
+136033 INFO: Analyzing hidden import 'vpa.gui.adapters.platform_adapters'
+136033 INFO: Analyzing hidden import 'vpa.gui.adapters.service_adapters'
+136033 INFO: Analyzing hidden import 'vpa.gui.adapters.third_party_adapters'
+136034 INFO: Analyzing hidden import 'vpa.gui.addons_tab'
+136034 INFO: Analyzing hidden import 'vpa.gui.commands'
+136034 INFO: Analyzing hidden import 'vpa.gui.commands.command_history'
+136034 INFO: Analyzing hidden import 'vpa.gui.commands.command_interfaces'
+136035 INFO: Analyzing hidden import 'vpa.gui.commands.command_manager'
+136035 INFO: Analyzing hidden import 'vpa.gui.commands.command_queue'
+136035 INFO: Analyzing hidden import 'vpa.gui.commands.gui_commands'
+136035 INFO: Analyzing hidden import 'vpa.gui.commands.macro_recorder'
+136035 INFO: Analyzing hidden import 'vpa.gui.enhanced_main_application'
+136036 INFO: Analyzing hidden import 'vpa.gui.enhanced_main_window'
+136051 INFO: Analyzing hidden import 'vpa.gui.enhanced_settings_window'
+136052 INFO: Analyzing hidden import 'vpa.gui.enhanced_settings_window_refactored'
+136052 INFO: Analyzing hidden import 'vpa.gui.factories'
+136052 INFO: Analyzing hidden import 'vpa.gui.factories.component_factory'
+136052 INFO: Analyzing hidden import 'vpa.gui.factories.theme_factory'
+136053 INFO: Analyzing hidden import 'vpa.gui.factories.window_factory'
+136053 INFO: Analyzing hidden import 'vpa.gui.framework'
+136053 INFO: Analyzing hidden import 'vpa.gui.framework.data_visualization_components'
+136053 INFO: Analyzing hidden import 'vpa.gui.framework.data_viz_charts'
+136054 INFO: Analyzing hidden import 'vpa.gui.framework.data_viz_progress'
+136054 INFO: Analyzing hidden import 'vpa.gui.framework.data_viz_tables'
+136054 INFO: Analyzing hidden import 'vpa.gui.framework.enhanced_components'
+136054 INFO: Analyzing hidden import 'vpa.gui.framework.enhanced_components_working'
+136055 INFO: Analyzing hidden import 'vpa.gui.framework.realtime_components'
+136055 INFO: Analyzing hidden import 'vpa.gui.framework.responsive_layout'
+136055 INFO: Analyzing hidden import 'vpa.gui.framework.theme_engine'
+136055 INFO: Analyzing hidden import 'vpa.gui.gui_manager'
+136055 INFO: Analyzing hidden import 'vpa.gui.gui_manager_factory'
+136056 INFO: Analyzing hidden import 'vpa.gui.gui_manager_refactored'
+136056 INFO: Analyzing hidden import 'vpa.gui.login_window'
+136056 INFO: Analyzing hidden import 'vpa.gui.login_window_refactored'
+136056 INFO: Analyzing hidden import 'vpa.gui.main_application'
+136057 INFO: Analyzing hidden import 'vpa.gui.main_window_refactored'
+136057 INFO: Analyzing hidden import 'vpa.gui.oauth_callback_server'
+136058 INFO: Analyzing hidden import 'vpa.gui.oauth_setup_window'
+136058 INFO: Analyzing hidden import 'vpa.gui.oauth_setup_window_refactored'
+136058 INFO: Analyzing hidden import 'vpa.gui.rag_llm_menu'
+136064 INFO: Analyzing hidden import 'vpa.gui.registration_window'
+136064 INFO: Analyzing hidden import 'vpa.gui.resource_monitor_widget'
+136065 INFO: Analyzing hidden import 'vpa.gui.settings_window'
+136065 INFO: Analyzing hidden import 'vpa.gui.simple_login_window'
+136065 INFO: Analyzing hidden import 'vpa.gui.strategies'
+136065 INFO: Analyzing hidden import 'vpa.gui.strategies.accessibility_strategies'
+136066 INFO: Analyzing hidden import 'vpa.gui.strategies.interaction_strategies'
+136066 INFO: Analyzing hidden import 'vpa.gui.strategies.layout_strategies'
+136066 INFO: Analyzing hidden import 'vpa.gui.strategies.rendering_strategies'
+136066 INFO: Analyzing hidden import 'vpa.gui.strategies.strategy_manager'
+136067 INFO: Analyzing hidden import 'vpa.gui.strategies.theme_strategies'
+136067 INFO: Analyzing hidden import 'vpa.gui.ultra_simple_login'
+136067 INFO: Analyzing hidden import 'vpa.maps'
+136067 INFO: Analyzing hidden import 'vpa.microsoft_setup'
+136067 INFO: Analyzing hidden import 'vpa.plugins'
+136068 INFO: Analyzing hidden import 'vpa.plugins.ai'
+136073 INFO: Analyzing hidden import 'vpa.plugins.audio'
+136084 INFO: Processing standard module hook 'hook-pyttsx3.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+136107 INFO: Analyzing hidden import 'vpa.services'
+136108 INFO: Analyzing hidden import 'vpa.ui'
+136108 INFO: Analyzing hidden import 'vpa.ui.chat_ui'
+136108 INFO: Analyzing hidden import 'vpa.ui.components'
+136110 INFO: Analyzing hidden import 'vpa.ui.components.addon_panel'
+136110 INFO: Analyzing hidden import 'vpa.ui.components.chat_area'
+136110 INFO: Analyzing hidden import 'vpa.ui.components.input_area'
+136111 INFO: Analyzing hidden import 'vpa.ui.components.resource_monitor'
+136111 INFO: Analyzing hidden import 'vpa.ui.components.settings_panel'
+136111 INFO: Analyzing hidden import 'vpa.user_setup'
+136112 INFO: Analyzing hidden import 'vpa.voice'
+136112 INFO: Analyzing hidden import 'vpa.voice.voice_manager'
+136112 INFO: Analyzing hidden import 'vpa.audio'
+136113 INFO: Analyzing hidden import 'edge_tts'
+136197 INFO: Analyzing hidden import 'pygame'
+136208 INFO: Processing standard module hook 'hook-pygame.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pygame\\__pyinstaller'
+136571 INFO: Processing module hooks (post-graph stage)...
+137656 INFO: Processing standard module hook 'hook-lxml.isoschematron.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+141211 INFO: Processing standard module hook 'hook-comtypes.client.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+149670 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+153931 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+154139 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+155071 INFO: Processing standard module hook 'hook-sqlalchemy.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks'
+155305 WARNING: Hidden import "pysqlite2" not found!
+155306 WARNING: Hidden import "MySQLdb" not found!
+155315 INFO: Processing standard module hook 'hook-psycopg2.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+156480 INFO: Processing standard module hook 'hook-lxml.objectify.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+156480 WARNING: Hidden import "mx.DateTime" not found!
+156480 INFO: Processing standard module hook 'hook-tzdata.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+157024 INFO: Performing binary vs. data reclassification (1805 entries)
+161198 INFO: Looking for ctypes DLLs
+161510 WARNING: Ignoring /usr/lib64/libgomp.so.1 imported from C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\torch\_inductor\codecache.py - only basenames are supported with ctypes imports!
+161938 INFO: Analyzing run-time hooks ...
+161969 INFO: Including run-time hook 'pyi_rth_cryptography_openssl.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+161976 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+161987 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+161994 INFO: Including run-time hook 'pyi_rth_pkgres.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+162006 INFO: Including run-time hook 'pyi_rth_pywintypes.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+162012 INFO: Including run-time hook 'pyi_rth_pythoncom.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks'
+162013 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+162019 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+162152 INFO: Creating base_library.zip...
+162200 INFO: Looking for dynamic libraries
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\experimental\__init__.py:7: PydanticExperimentalWarning: This module is experimental, its contents are subject to change and deprecation.
+  warnings.warn(
+W0814 21:53:54.603000 3772 site-packages\torch\distributed\elastic\multiprocessing\redirects.py:29] NOTE: Redirects are currently not supported in Windows or MacOs.
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._sharding_spec` will be deprecated, use `torch.distributed._shard.sharding_spec` instead
+  __import__(package)
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._sharded_tensor` will be deprecated, use `torch.distributed._shard.sharded_tensor` instead
+  __import__(package)
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\building\build_main.py:227: DeprecationWarning: `torch.distributed._shard.checkpoint` will be deprecated, use `torch.distributed.checkpoint` instead
+  __import__(package)
+<frozen importlib._bootstrap>:1047: ImportWarning: _SixMetaPathImporter.find_spec() not found; falling back to find_module()
+C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\websockets\legacy\__init__.py:6: DeprecationWarning: websockets.legacy is deprecated; see https://websockets.readthedocs.io/en/stable/howto/upgrade.html for upgrade instructions
+  warnings.warn(  # deprecated in 14.0 - 2024-11-09
+pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+172993 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pygame', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy.libs', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torch\\lib', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torchvision', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torchvision', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torchvision', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\torchvision', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\pandas.libs', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy.libs', 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cv2\\../../x64/vc14/bin']
+172993 INFO: Extra DLL search directories (PATH): ['C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\cv2\\../../x64/vc14/bin']
+176180 WARNING: Library not found: could not resolve 'tbb12.dll', dependency of 'C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numba\\np\\ufunc\\tbbpool.cp311-win_amd64.pyd'.
+176385 INFO: Warnings written to C:\Users\KarlBotha\AI_PROJECTS\VPA\build\vpa-win\warn-vpa-win.txt
+176980 INFO: Graph cross-reference written to C:\Users\KarlBotha\AI_PROJECTS\VPA\build\vpa-win\xref-vpa-win.html
+177182 INFO: checking PYZ
+177182 INFO: Building PYZ because PYZ-00.toc is non existent
+177182 INFO: Building PYZ (ZlibArchive) C:\Users\KarlBotha\AI_PROJECTS\VPA\build\vpa-win\PYZ-00.pyz
+184210 INFO: Building PYZ (ZlibArchive) C:\Users\KarlBotha\AI_PROJECTS\VPA\build\vpa-win\PYZ-00.pyz completed successfully.
+184310 INFO: checking PKG
+184310 INFO: Building PKG because PKG-00.toc is non existent
+184310 INFO: Building PKG (CArchive) vpa.pkg
+184379 INFO: Building PKG (CArchive) vpa.pkg completed successfully.
+184381 INFO: Bootloader C:\Users\KarlBotha\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\run.exe
+184381 INFO: checking EXE
+184381 INFO: Building EXE because EXE-00.toc is non existent
+184381 INFO: Building EXE from EXE-00.toc
+184381 INFO: Copying bootloader EXE to C:\Users\KarlBotha\AI_PROJECTS\VPA\build\vpa-win\vpa.exe
+184434 INFO: Copying icon to EXE
+184466 INFO: Copying 0 resources to EXE
+184466 INFO: Embedding manifest in EXE
+185160 INFO: Appending PKG archive to EXE
+185203 INFO: Fixing EXE headers
+189745 INFO: Building EXE from EXE-00.toc completed successfully.
+189770 INFO: checking COLLECT
+189771 INFO: Building COLLECT because COLLECT-00.toc is non existent
+189771 INFO: Building COLLECT COLLECT-00.toc
+196280 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+196346 INFO: Build complete! The results are available in: C:\Users\KarlBotha\AI_PROJECTS\VPA\dist
+pygame 2.6.1 (SDL 2.28.4, Python 3.11.9)
+Hello from the pygame community. https://www.pygame.org/contribute.html

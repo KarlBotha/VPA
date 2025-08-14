@@ -6,7 +6,7 @@ import os
 import sys
 
 # Add src to Python path for build
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+sys.path.insert(0, os.path.join(os.getcwd(), 'src'))
 
 # Module discovery - exclude heavy optional domains
 vpa_modules = [m for m in collect_submodules('vpa') 
@@ -27,7 +27,7 @@ block_cipher = None
 
 a = Analysis(
     ['_vpa_runner.py'],  # Use runner instead of direct main
-    pathex=[os.path.join(os.path.dirname(__file__), 'src')],
+    pathex=[os.path.join(os.getcwd(), 'src')],
     binaries=[],
     datas=[
         ('config/default.yaml', 'config/'),
