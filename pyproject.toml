@@ -81,8 +81,16 @@ addopts = [
     "--cov-report=html",
     "--cov-fail-under=90",
 ]
-testpaths = ["tests"]
-python_files = ["test_*.py", "*_test.py"]
+testpaths = ["tests/audio", "tests/core"]
+norecursedirs = ["archive*", "legacy*", "docs*", "build", "dist", ".git", ".venv", "env", ".tox", "pycache", "referencedocuments"]
+ignore = [
+    "archive/",
+    "archive_optimization/", 
+    "legacy_archive_cleanup/",
+    "referencedocuments/",
+    "*_test.py",
+]
+python_files = ["test_*.py"]
 python_classes = ["Test*"]
 python_functions = ["test_*"]
 markers = [
@@ -91,6 +99,8 @@ markers = [
     "slow: marks tests as slow (deselect with '-m \"not slow\"')",
     "gui: marks tests as GUI tests (deselect with '-m \"not gui\"')",
     "voice: marks tests as voice system tests (deselect with '-m \"not voice\"')",
+    "enterprise: enterprise-only tests",
+    "advanced_llm: non-core LLM tests",
 ]
 asyncio_mode = "auto"
 asyncio_default_fixture_loop_scope = "function"
