@@ -1,31 +1,132 @@
 #!/usr/bin/env python3
-import os, re, json, sys
-
-ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
-
+# Scan repo archive*/legacy* for prior working symbols and write recover_map.json + RECOVERY_REPORT.md
+import os, re, json
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 PATTERNS = {
-    "gui_manager": r"class\s+VPAGUIManager\b",
-    "auth_coord": r"class\s+VPAAuthenticationCoordinator\b",
-    "secure_config": r"class\s+SecureConfigManager\b",
-    "conversation_db": r"class\s+ConversationDatabaseManager\b",
-    "login_window": r"class\s+.*LoginWindow\b",
-    "register_window": r"class\s+.*Register.*Window\b",
-    "settings_window": r"class\s+.*SettingsWindow\b",
-    "graph_api": r"class\s+GraphAPIClient\b",
-    "gmail_client": r"class\s+Gmail\b",
-    "imap_client": r"class\s+.*IMAP\b",
-    "smtp_client": r"class\s+.*SMTP\b",
-    "openai_client": r"import openai|from openai",
-    "anthropic_client": r"import anthropic|from anthropic",
-    "google_ai": r"import google.generativeai|from google.generativeai",
-    "speech_recognition": r"import speech_recognition|from speech_recognition",
-    "whisper_client": r"import whisper|from whisper",
-    "microphone": r"class\s+.*Microphone\b|Microphone\(",
-    "tts_system": r"class\s+.*TTS\b|pyttsx3|edge_tts",
-    "audio_manager": r"class\s+.*AudioManager\b",
-    "chat_interface": r"class\s+.*ChatInterface\b|class\s+.*ChatWindow\b",
-    "main_window": r"class\s+MainWindow\b|class\s+.*MainApplication\b"
+  "gui_manager": r"class\s+(VPAGUIManager|VPAMainApplication)\b",
+  "login_form": r"class\s+(LoginForm|LoginDialog|VPALogin)\b",
+  "registration": r"class\s+(Registration|RegisterDialog|VPARegister)\b", 
+  "settings_panel": r"class\s+(SettingsPanel|VPASettings|ConfigPanel)\b",
+  "oauth_callback": r"def\s+(oauth_callback|handle_oauth|process_oauth)\b",
+  "email_handler": r"class\s+(EmailHandler|VPAEmail|MailManager)\b",
+  "llm_client": r"class\s+(LLMClient|ChatGPTClient|OpenAIClient)\b",
+  "stt_engine": r"class\s+(STTEngine|SpeechRecognition|VoiceInput)\b",
+  "tts_engine": r"class\s+(TTSEngine|TextToSpeech|VoiceOutput)\b",
+  "plugin_loader": r"class\s+(PluginLoader|VPAPlugin|ModuleManager)\b",
+  "event_handler": r"class\s+(EventHandler|VPAEvents|MessageBus)\b",
+  "auth_manager": r"class\s+(AuthManager|Authentication|UserAuth)\b",
+  "db_manager": r"class\s+(DatabaseManager|VPADatabase|DataStore)\b",
+  "config_manager": r"class\s+(ConfigManager|VPAConfig|Settings)\b",
+  "app_launcher": r"def\s+(main|run_app|launch_vpa)\b",
+  "ui_builder": r"class\s+(UIBuilder|InterfaceBuilder|VPAInterface)\b",
+  "voice_commands": r"class\s+(VoiceCommands|CommandProcessor|VPACommands)\b",
+  "security_layer": r"class\s+(SecurityLayer|Encryption|VPASecure)\b",
+  "notification_system": r"class\s+(NotificationSystem|VPANotify|AlertManager)\b",
+  "file_manager": r"class\s+(FileManager|VPAFiles|DocumentHandler)\b",
+  "scheduler": r"class\s+(Scheduler|TaskManager|VPAScheduler)\b"
 }
+
+def scan_file_for_patterns(filepath, patterns):
+    """Scan single file for pattern matches"""
+    try:
+        with open(filepath, 'r', encoding='utf-8', errors='ignore') as file:
+            content = file.read()
+        
+        matches = {}
+        for key, pattern in patterns.items():
+            if re.search(pattern, content, re.MULTILINE | re.IGNORECASE):
+                matches[key] = {
+                    "pattern": pattern,
+                    "file": os.path.relpath(filepath, ROOT),
+                    "size": len(content)
+                }
+        return matches
+    except Exception:
+        return {}
+
+def scan_archives():
+    """Scan all archive/legacy directories for patterns"""
+    archive_dirs = []
+    for root, dirs, files in os.walk(ROOT):
+        for dirname in dirs:
+            if 'archive' in dirname.lower() or 'legacy' in dirname.lower() or 'backup' in dirname.lower():
+                archive_dirs.append(os.path.join(root, dirname))
+    
+    print(f"Found {len(archive_dirs)} archive directories to scan")
+    
+    recover_map = {}
+    total_files = 0
+    
+    for archive_dir in archive_dirs:
+        print(f"Scanning: {archive_dir}")
+        for root, dirs, files in os.walk(archive_dir):
+            for file in files:
+                if file.endswith(('.py', '.pyw')):
+                    filepath = os.path.join(root, file)
+                    total_files += 1
+                    matches = scan_file_for_patterns(filepath, PATTERNS)
+                    for key, data in matches.items():
+                        if key not in recover_map:
+                            recover_map[key] = []
+                        recover_map[key].append(data)
+    
+    print(f"Scanned {total_files} Python files")
+    return recover_map
+
+def write_recovery_report(recover_map):
+    """Write detailed recovery report"""
+    report_path = os.path.join(ROOT, "RECOVERY_REPORT.md")
+    
+    with open(report_path, 'w', encoding='utf-8') as f:
+        f.write("# VPA Archive Recovery Report\n\n")
+        f.write(f"**Generated**: {__import__('datetime').datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
+        
+        f.write("## Summary\n\n")
+        total_candidates = sum(len(candidates) for candidates in recover_map.values())
+        f.write(f"- **Components Found**: {len(recover_map)} types\n")
+        f.write(f"- **Total Candidates**: {total_candidates} files\n")
+        f.write(f"- **Recovery Success**: {len(recover_map)}/21 component types detected\n\n")
+        
+        f.write("## Component Discovery\n\n")
+        
+        for component, candidates in sorted(recover_map.items()):
+            f.write(f"### {component.replace('_', ' ').title()}\n")
+            f.write(f"**Candidates Found**: {len(candidates)}\n\n")
+            
+            for candidate in candidates:
+                f.write(f"- **File**: `{candidate['file']}`\n")
+                f.write(f"  - Pattern: `{candidate['pattern']}`\n")
+                f.write(f"  - Size: {candidate['size']:,} bytes\n")
+            f.write("\n")
+        
+        f.write("## Recommendations\n\n")
+        if recover_map:
+            f.write("### High Priority Recovery Targets\n")
+            priority_components = ['gui_manager', 'login_form', 'registration', 'settings_panel', 'oauth_callback']
+            for comp in priority_components:
+                if comp in recover_map:
+                    best_candidate = max(recover_map[comp], key=lambda x: x['size'])
+                    f.write(f"- **{comp}**: `{best_candidate['file']}` ({best_candidate['size']:,} bytes)\n")
+            f.write("\n")
+        else:
+            f.write("No archive components found. Consider checking backup locations or version control history.\n")
+
+if __name__ == "__main__":
+    print("Starting archive recovery scan...")
+    recovery_data = scan_archives()
+    
+    # Write JSON map
+    output_dir = os.path.join(ROOT, "tools", "recover")
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, "recover_map.json")
+    with open(output_path, 'w', encoding='utf-8') as json_file:
+        json.dump(recovery_data, json_file, indent=2)
+    
+    # Write markdown report
+    write_recovery_report(recovery_data)
+    
+    print("Recovery scan complete. Found {} component types.".format(len(recovery_data)))
+    print("Results: recover_map.json, RECOVERY_REPORT.md")
 
 def scan_file(filepath):
     """Scan a file for pattern matches"""

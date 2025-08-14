@@ -1,0 +1,2552 @@
+{
+  "system_log": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\BRINGUP_VALIDATION.md",
+      "size": 5694,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\build_log.txt",
+      "size": 38285,
+      "modified": 1755201260.5607562
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_empty_python.txt",
+      "size": 83124,
+      "modified": 1755106939.6927404
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pycache_dirs.txt",
+      "size": 146120,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pyc_files.txt",
+      "size": 1514607,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_venv_bloat.txt",
+      "size": 4296765,
+      "modified": 1755106939.7188563
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_checkpoint_priorities_20250721_132757.json",
+      "size": 5805,
+      "modified": 1755107301.7884278
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\demo.py",
+      "size": 7352,
+      "modified": 1755193452.4256105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\detailed_file_list.txt",
+      "size": 8921993,
+      "modified": 1755106939.739731
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\directory_file_counts.txt",
+      "size": 643388,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\hotfix_results.txt",
+      "size": 44713,
+      "modified": 1755200113.173463
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\INSTALL_WINDOWS.md",
+      "size": 8485,
+      "modified": 1755207056.3493164
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\largest_python_files.txt",
+      "size": 2412125,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\project_structure.txt",
+      "size": 2496043,
+      "modified": 1755106939.787179
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\RELEASE_NOTES_DRAFT.md",
+      "size": 9136,
+      "modified": 1755207056.3493164
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\requirements.txt",
+      "size": 1389,
+      "modified": 1755200187.2387745
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\smoke_help.txt",
+      "size": 860,
+      "modified": 1755202377.8575044
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src_python_files.txt",
+      "size": 18284,
+      "modified": 1755106939.8028169
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\STATUS_CHECKPOINT.md",
+      "size": 3042,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\VPA_INTENT_SIGNALS.json",
+      "size": 4033,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\VPA_INTENT_SYNTHESIS.md",
+      "size": 7532,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\vpa_optimization.log",
+      "size": 14760,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\final_project_closure_documentation.py",
+      "size": 9109,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\oauth_flow_comprehensive_test.py",
+      "size": 12162,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\operational_status_summary.py",
+      "size": 5572,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_all_voices.py",
+      "size": 8582,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_integration.py",
+      "size": 2581,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_integration_protocol.py",
+      "size": 3946,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_neural_voice_integration.py",
+      "size": 28494,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_phase3_integration.py",
+      "size": 6147,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_phase4_performance.py",
+      "size": 14280,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_phase4_simplified.py",
+      "size": 16016,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\voice_configuration_system.py",
+      "size": 18042,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_agent_voice_demo.py",
+      "size": 14166,
+      "modified": 1755106939.5979936
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_integration_status_checker.py",
+      "size": 4770,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_neural_voice_diagnostic.py",
+      "size": 5278,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_system_status_report.py",
+      "size": 12571,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_voice_system_official_pyttsx3.py",
+      "size": 13362,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_voice_system_research_compliant.py",
+      "size": 20515,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_voice_system_working.py",
+      "size": 17450,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\duplicate_files\\addon_logic.py",
+      "size": 35731,
+      "modified": 1755106939.572802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\duplicate_files\\addon_logic_module.py",
+      "size": 35731,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\gui_screen_tester.py",
+      "size": 38901,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_gui.py",
+      "size": 2241,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_gui_implementations.py",
+      "size": 5028,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_oauth_flow.py",
+      "size": 2127,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_complete_launcher.py",
+      "size": 12264,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_complete_validation.py",
+      "size": 6966,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_comprehensive_project_assessment.py",
+      "size": 40525,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_continuous_monitoring_system.py",
+      "size": 24308,
+      "modified": 1755106939.5836084
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\unused_ui_system\\ui\\components\\resource_monitor.py",
+      "size": 18703,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\unused_ui_system\\ui\\components\\settings_panel.py",
+      "size": 25375,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\build\\vpa-win\\warn-vpa-win.txt",
+      "size": 243338,
+      "modified": 1755201240.5331888
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\config\\default.yaml",
+      "size": 4071,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\requirements.txt",
+      "size": 1389,
+      "modified": 1755201256.6671576
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\config\\default.yaml",
+      "size": 4071,
+      "modified": 1755201256.6671576
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\torch\\testing\\_internal\\common_methods_invocations.py",
+      "size": 1196794,
+      "modified": 1755201258.0811412
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\LOGBOOK.md",
+      "size": 62511,
+      "modified": 1755194922.693598
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov\\status.json",
+      "size": 42765,
+      "modified": 1753209629.472879
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov_resource_monitor\\status.json",
+      "size": 42073,
+      "modified": 1753206814.0416765
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\CONTINUOUS_INTEGRITY_AUDIT_SCHEDULE.md",
+      "size": 5116,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\DEPLOYMENT_EVIDENCE_LOG.md",
+      "size": 20280,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\SYSTEM_REALIGNMENT_REPORT_20250719.md",
+      "size": 5252,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\test_telegram_addon_logic_enhanced.py",
+      "size": 19701,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\test_whatsapp_addon_logic_enhanced.py",
+      "size": 16344,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_CIRCULAR_IMPORT_FIX_REPORT_20250719.md",
+      "size": 2893,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_COMPREHENSIVE_AUDIT_REPORT_20250716.md",
+      "size": 17949,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FINAL_CLOSURE_COMPLETE.md",
+      "size": 6603,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FINAL_USER_TESTING_READINESS_REPORT.md",
+      "size": 8078,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FULL_PROJECT_ALIGNMENT_COMPLETE.md",
+      "size": 9516,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FULL_SEQUENTIAL_AUDIT_REPORT_20250719.md",
+      "size": 6993,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_LIVE_PRODUCTION_OPERATIONS_STATUS.md",
+      "size": 8720,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_MASTER_ALIGNMENT_LOGBOOK.md",
+      "size": 9679,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_Neural_Voice_Integration_Report.md",
+      "size": 6355,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_OAUTH_IMPLEMENTATION_COMPLETE.md",
+      "size": 5509,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_OPERATIONS_LOG.md",
+      "size": 6410,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_PRODUCTION_OPERATIONS_ACTIVE.md",
+      "size": 6935,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_PROJECT_COMPREHENSIVE_REPORT.md",
+      "size": 10754,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_System_Architecture_Status_and_Gap_Analysis.md",
+      "size": 11431,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\logs\\hygiene_20250715.log",
+      "size": 17227,
+      "modified": 1755107301.7954283
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\logs\\vpa.log",
+      "size": 16423,
+      "modified": 1755206547.6559267
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\DEVELOPMENT.md",
+      "size": 4496,
+      "modified": 1751873159.028279
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\main.py",
+      "size": 2488,
+      "modified": 1755193452.427609
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\voice_system.py",
+      "size": 11460,
+      "modified": 1755194917.6824045
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\vpa_voice_system.py",
+      "size": 21505,
+      "modified": 1755194917.6834044
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\__main__.py",
+      "size": 9213,
+      "modified": 1755207056.340293
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\ai\\addon_logic.py",
+      "size": 35731,
+      "modified": 1755194917.6854043
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\ai\\addon_logic_module.py",
+      "size": 35731,
+      "modified": 1755194917.6899083
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\ai\\base_logic.py",
+      "size": 20261,
+      "modified": 1755194917.6914573
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\ai\\user_logic.py",
+      "size": 36281,
+      "modified": 1755194917.6914573
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\ai\\__init__.py",
+      "size": 704,
+      "modified": 1755194917.6854043
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\ai\\addon_logic\\__init__.py",
+      "size": 1642,
+      "modified": 1755194917.6854043
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\auth\\auth_bridge.py",
+      "size": 6525,
+      "modified": 1755207056.3593373
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\cli\\main_enhanced.py",
+      "size": 10630,
+      "modified": 1755194917.6934617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\config\\deployment_config.py",
+      "size": 19293,
+      "modified": 1755194917.6934617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\auth.py",
+      "size": 24781,
+      "modified": 1755194917.6954615
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\enhanced_rag.py",
+      "size": 27736,
+      "modified": 1755194917.698462
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\enterprise_expansion_intelligent_automation.py",
+      "size": 61844,
+      "modified": 1755194917.6994617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\health.py",
+      "size": 22023,
+      "modified": 1755194917.701968
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\logging.py",
+      "size": 4054,
+      "modified": 1755200187.240775
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\plugin_boundaries.py",
+      "size": 22262,
+      "modified": 1755194917.7029684
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\session_manager.py",
+      "size": 20092,
+      "modified": 1755194917.7049682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\vector_database.py",
+      "size": 34038,
+      "modified": 1755194917.7059681
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\vpa_logging.py",
+      "size": 9975,
+      "modified": 1755106939.787179
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\components.py",
+      "size": 16552,
+      "modified": 1755194917.7069685
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\enhanced_main_window.py",
+      "size": 16660,
+      "modified": 1755194917.7069685
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\rag_llm_menu.py",
+      "size": 15927,
+      "modified": 1755194917.7079682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\plugins\\audio\\engine.py",
+      "size": 19000,
+      "modified": 1755194917.7109683
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa.egg-info\\SOURCES.txt",
+      "size": 1668,
+      "modified": 1755107301.8061137
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\test_core_architecture.py",
+      "size": 11184,
+      "modified": 1755193452.428609
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\cli\\test_main.py",
+      "size": 14533,
+      "modified": 1755194917.7142127
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_events.py",
+      "size": 15797,
+      "modified": 1755194917.7182133
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_logging.py",
+      "size": 20780,
+      "modified": 1755194917.719213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\gui\\test_gui_integration.py",
+      "size": 16712,
+      "modified": 1755194917.7217162
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\htmlcov\\status.json",
+      "size": 30985,
+      "modified": 1752841411.736964
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_archives.py",
+      "size": 16321,
+      "modified": 1755207460.9804745
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\architecture_and_policies_summary_Version2.md",
+      "size": 3115,
+      "modified": 1752608430.9528894
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\MY-VPA_ACTION_PLAN.md",
+      "size": 5615,
+      "modified": 1750242958.090384
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_REFERENCEDOCS_FEEDBACK_Version2 (1).md",
+      "size": 12292,
+      "modified": 1752600571.5884955
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_REFERENCEDOCS_FEEDBACK_Version2.md",
+      "size": 12292,
+      "modified": 1752597597.429275
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_ReferenceDocuments_ArchitectureAnalysis_Enhanced_Version2 (1).md",
+      "size": 23065,
+      "modified": 1752597717.7697086
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_ReferenceDocuments_ArchitectureAnalysis_Enhanced_Version2.md",
+      "size": 23065,
+      "modified": 1752596639.2001073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\llama.cpp-master\\llama.cpp-master\\convert_hf_to_gguf.py",
+      "size": 306095,
+      "modified": 1750308972.0
+    }
+  ],
+  "vpa_config": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\build_log.txt",
+      "size": 38285,
+      "modified": 1755201260.5607562
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_empty_python.txt",
+      "size": 83124,
+      "modified": 1755106939.6927404
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pycache_dirs.txt",
+      "size": 146120,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pyc_files.txt",
+      "size": 1514607,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_venv_bloat.txt",
+      "size": 4296765,
+      "modified": 1755106939.7188563
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\detailed_file_list.txt",
+      "size": 8921993,
+      "modified": 1755106939.739731
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\directory_file_counts.txt",
+      "size": 643388,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\hotfix_results.txt",
+      "size": 44713,
+      "modified": 1755200113.173463
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\infrastructure_requirements_analysis.json",
+      "size": 13571,
+      "modified": 1755107301.7924283
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\INSTALL_WINDOWS.md",
+      "size": 8485,
+      "modified": 1755207056.3493164
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\largest_python_files.txt",
+      "size": 2412125,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\PHASE2_CHECKLIST.md",
+      "size": 9300,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\project_structure.txt",
+      "size": 2496043,
+      "modified": 1755106939.787179
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\RELEASE_NOTES_DRAFT.md",
+      "size": 9136,
+      "modified": 1755207056.3493164
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\security_vulnerabilities_remediation.json",
+      "size": 9340,
+      "modified": 1755107301.8046231
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src_python_files.txt",
+      "size": 18284,
+      "modified": 1755106939.8028169
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\VPA_INTENT_SYNTHESIS.md",
+      "size": 7532,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\voice_configuration_system.py",
+      "size": 18042,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_integration_status_checker.py",
+      "size": 4770,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_system_status_report.py",
+      "size": 12571,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_voice_implementation.py",
+      "size": 6346,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\demo_advanced_analytics_optimization.py",
+      "size": 27974,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_gui.py",
+      "size": 2241,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\build\\vpa-win\\warn-vpa-win.txt",
+      "size": 243338,
+      "modified": 1755201240.5331888
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\config\\default.yaml",
+      "size": 4071,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\config\\default.yaml",
+      "size": 4071,
+      "modified": 1755201256.6671576
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\transformers\\models\\clvp\\configuration_clvp.py",
+      "size": 20279,
+      "modified": 1755201259.2278118
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\transformers\\models\\tvp\\modeling_tvp.py",
+      "size": 39628,
+      "modified": 1755201258.4262009
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\configuration_management\\configuration_management_integration_report.md",
+      "size": 938,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\enhanced_testing\\enhanced_testing_integration_report.md",
+      "size": 898,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\error_recovery\\error_recovery_integration_report.md",
+      "size": 888,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\failsafe_protocol\\failsafe_protocol_integration_report.md",
+      "size": 903,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\hardware_monitoring\\hardware_monitoring_integration_report.md",
+      "size": 913,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\performance_optimization\\performance_optimization_integration_report.md",
+      "size": 938,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov\\status.json",
+      "size": 42765,
+      "modified": 1753209629.472879
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov_resource_monitor\\status.json",
+      "size": 42073,
+      "modified": 1753206814.0416765
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\DEPLOYMENT_EVIDENCE_LOG.md",
+      "size": 20280,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_COMPREHENSIVE_AUDIT_REPORT_20250716.md",
+      "size": 17949,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_VOICE_MANDATE_COMPLETION_REPORT.md",
+      "size": 7427,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\logs\\hygiene_20250715.log",
+      "size": 17227,
+      "modified": 1755107301.7954283
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\logs\\integration_log.json",
+      "size": 41599,
+      "modified": 1755107301.7964284
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\logs\\vpa.log",
+      "size": 16423,
+      "modified": 1755206547.6559267
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa.log",
+      "size": 593,
+      "modified": 1755194728.2798
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\production_voice_system.py",
+      "size": 16820,
+      "modified": 1755194917.6824045
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\vpa_agent_voice.py",
+      "size": 17848,
+      "modified": 1755194917.6834044
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\vpa_voice_system.py",
+      "size": 21505,
+      "modified": 1755194917.6834044
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\__init__.py",
+      "size": 307,
+      "modified": 1755194917.6844049
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\auth\\auth_bridge.py",
+      "size": 6525,
+      "modified": 1755207056.3593373
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\cli\\main.py",
+      "size": 4727,
+      "modified": 1755194917.6924615
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\cli\\main_enhanced.py",
+      "size": 10630,
+      "modified": 1755194917.6934617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\config\\deployment_config.py",
+      "size": 19293,
+      "modified": 1755194917.6934617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\advanced_analytics_proactive_optimization.py",
+      "size": 62399,
+      "modified": 1755194917.694462
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\app.py",
+      "size": 3401,
+      "modified": 1755194917.6954615
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\config.py",
+      "size": 7888,
+      "modified": 1755194917.6974614
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\continuous_improvement_monitoring.py",
+      "size": 33003,
+      "modified": 1755194917.6974614
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\enterprise_expansion_intelligent_automation.py",
+      "size": 61844,
+      "modified": 1755194917.6994617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\enterprise_rollout_operations.py",
+      "size": 16283,
+      "modified": 1755194917.6994617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\global_scale_operations.py",
+      "size": 52317,
+      "modified": 1755194917.7009645
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\quality_ux_enhancements.py",
+      "size": 45163,
+      "modified": 1755194917.7039678
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\scalability_reliability_upgrades.py",
+      "size": 38724,
+      "modified": 1755194917.7049682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa.egg-info\\SOURCES.txt",
+      "size": 1668,
+      "modified": 1755107301.8061137
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\cli\\test_main.py",
+      "size": 14533,
+      "modified": 1755194917.7142127
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_advanced_analytics_proactive_optimization.py",
+      "size": 25115,
+      "modified": 1755194917.7152133
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_app.py",
+      "size": 14835,
+      "modified": 1755194917.7152133
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_auth_providers.py",
+      "size": 1935,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_config.py",
+      "size": 11113,
+      "modified": 1755194917.7172134
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_continuous_improvement_scalability.py",
+      "size": 25923,
+      "modified": 1755194917.7172134
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_gui_manager_coverage.py",
+      "size": 4773,
+      "modified": 1755106939.8028169
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_quality_ux_enhancements.py",
+      "size": 41008,
+      "modified": 1755194917.720213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_rag_llm_integration.py",
+      "size": 17510,
+      "modified": 1755194917.7212124
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\htmlcov\\status.json",
+      "size": 30985,
+      "modified": 1752841411.736964
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\consolidate_reports.py",
+      "size": 13634,
+      "modified": 1755207320.0517426
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_archives.py",
+      "size": 16321,
+      "modified": 1755207460.9804745
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    }
+  ],
+  "plugin_config": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\build_log.txt",
+      "size": 38285,
+      "modified": 1755201260.5607562
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pycache_dirs.txt",
+      "size": 146120,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pyc_files.txt",
+      "size": 1514607,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_venv_bloat.txt",
+      "size": 4296765,
+      "modified": 1755106939.7188563
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\detailed_file_list.txt",
+      "size": 8921993,
+      "modified": 1755106939.739731
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\directory_file_counts.txt",
+      "size": 643388,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\infrastructure_requirements_analysis.json",
+      "size": 13571,
+      "modified": 1755107301.7924283
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\largest_python_files.txt",
+      "size": 2412125,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\project_structure.txt",
+      "size": 2496043,
+      "modified": 1755106939.787179
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\security_vulnerabilities_remediation.json",
+      "size": 9340,
+      "modified": 1755107301.8046231
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\build\\vpa-win\\warn-vpa-win.txt",
+      "size": 243338,
+      "modified": 1755201240.5331888
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\transformers\\models\\mvp\\modeling_mvp.py",
+      "size": 83362,
+      "modified": 1755201258.6946695
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\transformers\\models\\tvp\\modeling_tvp.py",
+      "size": 39628,
+      "modified": 1755201258.4262009
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\plugins\\audio\\__init__.py",
+      "size": 2057,
+      "modified": 1755194917.7109683
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_config.py",
+      "size": 11113,
+      "modified": 1755194917.7172134
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_plugins.py",
+      "size": 21176,
+      "modified": 1755194917.719213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\consolidate_reports.py",
+      "size": 13634,
+      "modified": 1755207320.0517426
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_Project_Architecture_Analysis_Enhanced_Version2.md",
+      "size": 16606,
+      "modified": 1752596643.35939
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\llama.cpp-master\\llama.cpp-master\\tools\\server\\webui\\package-lock.json",
+      "size": 236698,
+      "modified": 1750308972.0
+    }
+  ],
+  "chat_history": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_empty_python.txt",
+      "size": 83124,
+      "modified": 1755106939.6927404
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pycache_dirs.txt",
+      "size": 146120,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pyc_files.txt",
+      "size": 1514607,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_venv_bloat.txt",
+      "size": 4296765,
+      "modified": 1755106939.7188563
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\detailed_file_list.txt",
+      "size": 8921993,
+      "modified": 1755106939.739731
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\directory_file_counts.txt",
+      "size": 643388,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\hotfix_results.txt",
+      "size": 44713,
+      "modified": 1755200113.173463
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\infrastructure_requirements_analysis.json",
+      "size": 13571,
+      "modified": 1755107301.7924283
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\largest_python_files.txt",
+      "size": 2412125,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\project_structure.txt",
+      "size": 2496043,
+      "modified": 1755106939.787179
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\RECOVERY_REPORT.md",
+      "size": 3025,
+      "modified": 1755207665.4542274
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\RELEASE_NOTES.md",
+      "size": 1218,
+      "modified": 1755106939.545302
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\audio_integration_plan.py",
+      "size": 9594,
+      "modified": 1755106939.5718021
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\edge_tts_voice_system.py",
+      "size": 14018,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_base_app_integration.py",
+      "size": 3547,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_system_status_report.py",
+      "size": 12571,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\demo_rag_llm_ui.py",
+      "size": 15112,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\gui_screen_tester.py",
+      "size": 38901,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_chat_components.py",
+      "size": 5437,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_gui.py",
+      "size": 2241,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_complete_launcher.py",
+      "size": 12264,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_complete_validation.py",
+      "size": 6966,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_comprehensive_project_assessment.py",
+      "size": 40525,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\unused_ui_system\\ui\\chat_ui.py",
+      "size": 29585,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\unused_ui_system\\ui\\components\\chat_area.py",
+      "size": 12036,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\LOGBOOK.md",
+      "size": 62511,
+      "modified": 1755194922.693598
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\CONTINUOUS_INTEGRITY_AUDIT_SCHEDULE.md",
+      "size": 5116,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\CRITICAL_MILESTONE_CROSS_CHECK_FAILURE.md",
+      "size": 4385,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\DEPLOYMENT_EVIDENCE_LOG.md",
+      "size": 20280,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\EVIDENCE_BASED_AUDIT_SUMMARY.md",
+      "size": 4339,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\MILESTONE_COMPLETION_SUMMARY.md",
+      "size": 8564,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\neural_voice_config.json",
+      "size": 4684,
+      "modified": 1755107301.7944283
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\PROJECT_REALIGNMENT_EVIDENCE_BASED.md",
+      "size": 8905,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\quality_ux_deployment_validation.json",
+      "size": 4782,
+      "modified": 1755107301.7954283
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\STAKEHOLDER_AUDIT_NOTIFICATION.md",
+      "size": 7933,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\test_telegram_addon_logic_enhanced.py",
+      "size": 19701,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\test_whatsapp_addon_logic_enhanced.py",
+      "size": 16344,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_AUTHENTICATION_SYSTEM_COMPLETE.md",
+      "size": 4498,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_COMPREHENSIVE_AUDIT_REPORT_20250716.md",
+      "size": 17949,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_Development_Status_Summary.md",
+      "size": 4918,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FINAL_USER_TESTING_READINESS_REPORT.md",
+      "size": 8078,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FULL_PROJECT_ALIGNMENT_COMPLETE.md",
+      "size": 9516,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_LIVE_PRODUCTION_OPERATIONS_STATUS.md",
+      "size": 8720,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_MASTER_ALIGNMENT_LOGBOOK.md",
+      "size": 9679,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_PRODUCTION_DEPLOYMENT_EXECUTION_COMPLETE.md",
+      "size": 5136,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_System_Architecture_Status_and_Gap_Analysis.md",
+      "size": 11431,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_SYSTEM_STATUS_FINAL_ALIGNMENT.md",
+      "size": 7398,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\AI_ASSISTANT_SYSTEM_OVERVIEW.md",
+      "size": 18394,
+      "modified": 1752096831.8964555
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\DEVELOPMENT.md",
+      "size": 4496,
+      "modified": 1751873159.028279
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\README.md",
+      "size": 4573,
+      "modified": 1755195461.8291428
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\test_results\\regression\\regression_20250714_105408.log",
+      "size": 9892,
+      "modified": 1752483249.5657017
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\neural_voice_engine.py",
+      "size": 25780,
+      "modified": 1755194917.6824045
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\vpa_agent_voice.py",
+      "size": 17848,
+      "modified": 1755194917.6834044
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\auth.py",
+      "size": 24781,
+      "modified": 1755194917.6954615
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\base_app.py",
+      "size": 17621,
+      "modified": 1755194917.696462
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\database.py",
+      "size": 30705,
+      "modified": 1755194917.6974614
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\enhanced_llm_integration.py",
+      "size": 25590,
+      "modified": 1755194917.698462
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\llm.py",
+      "size": 27189,
+      "modified": 1755194917.701968
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\rag.py",
+      "size": 27629,
+      "modified": 1755194917.7049682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\session_manager.py",
+      "size": 20092,
+      "modified": 1755194917.7049682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\components.py",
+      "size": 16552,
+      "modified": 1755194917.7069685
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\enhanced_main_window.py",
+      "size": 16660,
+      "modified": 1755194917.7069685
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\main_window.py",
+      "size": 16315,
+      "modified": 1755194917.7069685
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\rag_llm_menu.py",
+      "size": 15927,
+      "modified": 1755194917.7079682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\rag_llm_widget.py",
+      "size": 26072,
+      "modified": 1755194917.7079682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_advanced_llm_provider_expansion.py",
+      "size": 22430,
+      "modified": 1755207056.340293
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_auth.py",
+      "size": 9825,
+      "modified": 1755194917.716213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_auth_enhanced.py",
+      "size": 18908,
+      "modified": 1755194917.716213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_base_app.py",
+      "size": 15634,
+      "modified": 1755194917.716213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_database.py",
+      "size": 18890,
+      "modified": 1755194917.7172134
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_llm.py",
+      "size": 16545,
+      "modified": 1755194917.719213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_rag.py",
+      "size": 8141,
+      "modified": 1755194917.720213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_rag_clean.py",
+      "size": 8141,
+      "modified": 1755194917.720213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_rag_llm_integration.py",
+      "size": 17510,
+      "modified": 1755194917.7212124
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\gui\\test_gui_integration.py",
+      "size": 16712,
+      "modified": 1755194917.7217162
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\gui\\test_rag_llm_ui_integration.py",
+      "size": 16555,
+      "modified": 1755194917.7217162
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\consolidate_reports.py",
+      "size": 13634,
+      "modified": 1755207320.0517426
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_archives.py",
+      "size": 16321,
+      "modified": 1755207460.9804745
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\MY-VPA_ACTION_PLAN.md",
+      "size": 5615,
+      "modified": 1750242958.090384
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_MAIN_FEEDBACK_Version2.md",
+      "size": 10621,
+      "modified": 1752597595.3402486
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_REFERENCEDOCS_FEEDBACK_Version2 (1).md",
+      "size": 12292,
+      "modified": 1752600571.5884955
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_REFERENCEDOCS_FEEDBACK_Version2.md",
+      "size": 12292,
+      "modified": 1752597597.429275
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_APP_FINAL_OVERVIEW_Version4.md",
+      "size": 7220,
+      "modified": 1752651044.6713223
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_Final_Architecture_and_Solution_Overview_Version6.md",
+      "size": 16017,
+      "modified": 1755100534.244556
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_Master_Architecture_Alignment_And_Execution_Protocol_Version6.md",
+      "size": 19318,
+      "modified": 1752842867.9714293
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_ReferenceDocuments_ArchitectureAnalysis_Enhanced_Version2 (1).md",
+      "size": 23065,
+      "modified": 1752597717.7697086
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_ReferenceDocuments_ArchitectureAnalysis_Enhanced_Version2.md",
+      "size": 23065,
+      "modified": 1752596639.2001073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\llama.cpp-master\\llama.cpp-master\\convert_hf_to_gguf.py",
+      "size": 306095,
+      "modified": 1750308972.0
+    }
+  ],
+  "voice_settings": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_empty_python.txt",
+      "size": 83124,
+      "modified": 1755106939.6927404
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\detailed_file_list.txt",
+      "size": 8921993,
+      "modified": 1755106939.739731
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\interface_coverage_enhancement_plan.json",
+      "size": 7845,
+      "modified": 1755107301.7924283
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\largest_python_files.txt",
+      "size": 2412125,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\PHASE2_CHECKLIST.md",
+      "size": 9300,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\project_structure.txt",
+      "size": 2496043,
+      "modified": 1755106939.787179
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\RECOVERY_REPORT.md",
+      "size": 3025,
+      "modified": 1755207665.4542274
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\RELEASE_NOTES_DRAFT.md",
+      "size": 9136,
+      "modified": 1755207056.3493164
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\TESTING_INSTRUCTIONS.md",
+      "size": 2903,
+      "modified": 1755106939.5613513
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\audio_calibration_test.py",
+      "size": 5494,
+      "modified": 1755106939.5708025
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\audio_diagnostics.py",
+      "size": 3026,
+      "modified": 1755106939.5708025
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\audio_integration_plan.py",
+      "size": 9594,
+      "modified": 1755106939.5718021
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\edge_tts_voice_system.py",
+      "size": 14018,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\final_project_closure_documentation.py",
+      "size": 9109,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\operational_status_summary.py",
+      "size": 5572,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_all_voices.py",
+      "size": 8582,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\test_neural_voice_integration.py",
+      "size": 28494,
+      "modified": 1755106939.5872073
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\voice_configuration_system.py",
+      "size": 18042,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\voice_system_diagnostic.py",
+      "size": 19940,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\voice_test.py",
+      "size": 2807,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\voice_validation_test.py",
+      "size": 11042,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_agent_voice_demo.py",
+      "size": 14166,
+      "modified": 1755106939.5979936
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_voice_implementation.py",
+      "size": 6346,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_voice_system_official_pyttsx3.py",
+      "size": 13362,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\vpa_voice_system_working.py",
+      "size": 17450,
+      "modified": 1755106939.598534
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\gui_screen_tester.py",
+      "size": 38901,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\install_audio_dependencies.py",
+      "size": 3077,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\record_button_status.py",
+      "size": 1716,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_audio_core.py",
+      "size": 4895,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_chat_components.py",
+      "size": 5437,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_production_audio_system.py",
+      "size": 12404,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_record_button.py",
+      "size": 5663,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_record_functionality.py",
+      "size": 5853,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_updated_voice_system.py",
+      "size": 6473,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_voice_fix.py",
+      "size": 4520,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_complete_validation.py",
+      "size": 6966,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\unused_ui_system\\test_chat_ui.py",
+      "size": 2618,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\unused_ui_system\\ui\\components\\input_area.py",
+      "size": 12126,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\unused_ui_system\\ui\\components\\settings_panel.py",
+      "size": 25375,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\LOGBOOK.md",
+      "size": 62511,
+      "modified": 1755194922.693598
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov\\status.json",
+      "size": 42765,
+      "modified": 1753209629.472879
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov_resource_monitor\\status.json",
+      "size": 42073,
+      "modified": 1753206814.0416765
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FINAL_CLOSURE_COMPLETE.md",
+      "size": 6603,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FINAL_OPERATIONAL_CLOSURE_COMPLETE.md",
+      "size": 6162,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FINAL_PROJECT_CLOSURE_COMPLETE.md",
+      "size": 7364,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FULL_PROJECT_ALIGNMENT_COMPLETE.md",
+      "size": 9516,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_Neural_Voice_Integration_Report.md",
+      "size": 6355,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_OPERATIONS_LOG.md",
+      "size": 6410,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_PRODUCTION_DEPLOYMENT_COMPLETE.md",
+      "size": 4862,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_PRODUCTION_OPERATIONS_ACTIVE.md",
+      "size": 6935,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_VOICE_MANDATE_COMPLETION_REPORT.md",
+      "size": 7427,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\logs\\vpa.log",
+      "size": 16423,
+      "modified": 1755206547.6559267
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\AI_ASSISTANT_SYSTEM_OVERVIEW.md",
+      "size": 18394,
+      "modified": 1752096831.8964555
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\DEVELOPMENT.md",
+      "size": 4496,
+      "modified": 1751873159.028279
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\README.md",
+      "size": 4573,
+      "modified": 1755195461.8291428
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\neural_voice_engine.py",
+      "size": 25780,
+      "modified": 1755194917.6824045
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\production_voice_system.py",
+      "size": 16820,
+      "modified": 1755194917.6824045
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\vpa_agent_voice.py",
+      "size": 17848,
+      "modified": 1755194917.6834044
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\audio\\vpa_voice_system.py",
+      "size": 21505,
+      "modified": 1755194917.6834044
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\components.py",
+      "size": 16552,
+      "modified": 1755194917.7069685
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\plugins\\audio\\engine.py",
+      "size": 19000,
+      "modified": 1755194917.7109683
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\test_core_architecture.py",
+      "size": 11184,
+      "modified": 1755193452.428609
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\user_validation_suite.py",
+      "size": 22642,
+      "modified": 1755194917.724721
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_archives.py",
+      "size": 16321,
+      "modified": 1755207460.9804745
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_Final_Architecture_and_Solution_Overview_Version6.md",
+      "size": 16017,
+      "modified": 1755100534.244556
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_Master_Architecture_Alignment_And_Execution_Protocol_Version6.md",
+      "size": 19318,
+      "modified": 1752842867.9714293
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_ReferenceDocuments_ArchitectureAnalysis_Enhanced_Version2 (1).md",
+      "size": 23065,
+      "modified": 1752597717.7697086
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_ReferenceDocuments_ArchitectureAnalysis_Enhanced_Version2.md",
+      "size": 23065,
+      "modified": 1752596639.2001073
+    }
+  ],
+  "login_cache": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_empty_python.txt",
+      "size": 83124,
+      "modified": 1755106939.6927404
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pycache_dirs.txt",
+      "size": 146120,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pyc_files.txt",
+      "size": 1514607,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_venv_bloat.txt",
+      "size": 4296765,
+      "modified": 1755106939.7188563
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\detailed_file_list.txt",
+      "size": 8921993,
+      "modified": 1755106939.739731
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\directory_file_counts.txt",
+      "size": 643388,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\hotfix_results.txt",
+      "size": 44713,
+      "modified": 1755200113.173463
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\INSTALL_WINDOWS.md",
+      "size": 8485,
+      "modified": 1755207056.3493164
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\largest_python_files.txt",
+      "size": 2412125,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\security_vulnerabilities_remediation.json",
+      "size": 9340,
+      "modified": 1755107301.8046231
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src_python_files.txt",
+      "size": 18284,
+      "modified": 1755106939.8028169
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\gui_screen_tester.py",
+      "size": 38901,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_main_app_voice.py",
+      "size": 2850,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_complete_launcher.py",
+      "size": 12264,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov\\status.json",
+      "size": 42765,
+      "modified": 1753209629.472879
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov_resource_monitor\\status.json",
+      "size": 42073,
+      "modified": 1753206814.0416765
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_AUTHENTICATION_SYSTEM_COMPLETE.md",
+      "size": 4498,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_COMPREHENSIVE_AUDIT_REPORT_20250716.md",
+      "size": 17949,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FINAL_USER_TESTING_READINESS_REPORT.md",
+      "size": 8078,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_OPERATIONS_LOG.md",
+      "size": 6410,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_PROJECT_COMPREHENSIVE_REPORT.md",
+      "size": 10754,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_SAFE_CODING_COMPLETION_ASSESSMENT.md",
+      "size": 5397,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\AI_ASSISTANT_SYSTEM_OVERVIEW.md",
+      "size": 18394,
+      "modified": 1752096831.8964555
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\ai\\user_logic.py",
+      "size": 36281,
+      "modified": 1755194917.6914573
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\advanced_analytics_proactive_optimization.py",
+      "size": 62399,
+      "modified": 1755194917.694462
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\auth.py",
+      "size": 24781,
+      "modified": 1755194917.6954615
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\database.py",
+      "size": 30705,
+      "modified": 1755194917.6974614
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\enterprise_expansion_intelligent_automation.py",
+      "size": 61844,
+      "modified": 1755194917.6994617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\quality_ux_enhancements.py",
+      "size": 45163,
+      "modified": 1755194917.7039678
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\session_manager.py",
+      "size": 20092,
+      "modified": 1755194917.7049682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\integration_test_suite.py",
+      "size": 21433,
+      "modified": 1755194917.72272
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_auth.py",
+      "size": 9825,
+      "modified": 1755194917.716213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_auth_enhanced.py",
+      "size": 18908,
+      "modified": 1755194917.716213
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\htmlcov\\status.json",
+      "size": 30985,
+      "modified": 1752841411.736964
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\consolidate_reports.py",
+      "size": 13634,
+      "modified": 1755207320.0517426
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_MAIN_FEEDBACK_Version2.md",
+      "size": 10621,
+      "modified": 1752597595.3402486
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_REFERENCEDOCS_FEEDBACK_Version2 (1).md",
+      "size": 12292,
+      "modified": 1752600571.5884955
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_REFERENCEDOCS_FEEDBACK_Version2.md",
+      "size": 12292,
+      "modified": 1752597597.429275
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_Final_Architecture_and_Solution_Overview_Version6.md",
+      "size": 16017,
+      "modified": 1755100534.244556
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\VPA_Master_Architecture_Alignment_And_Execution_Protocol_Version6.md",
+      "size": 19318,
+      "modified": 1752842867.9714293
+    }
+  ],
+  "auth_tokens": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pycache_dirs.txt",
+      "size": 146120,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_pyc_files.txt",
+      "size": 1514607,
+      "modified": 1755106939.708371
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\cleanup_venv_bloat.txt",
+      "size": 4296765,
+      "modified": 1755106939.7188563
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\detailed_file_list.txt",
+      "size": 8921993,
+      "modified": 1755106939.739731
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\directory_file_counts.txt",
+      "size": 643388,
+      "modified": 1755106939.7444105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\hotfix_results.txt",
+      "size": 44713,
+      "modified": 1755200113.173463
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\largest_python_files.txt",
+      "size": 2412125,
+      "modified": 1755106939.7554057
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\project_structure.txt",
+      "size": 2496043,
+      "modified": 1755106939.787179
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_comprehensive_project_assessment.py",
+      "size": 40525,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_FINAL_USER_TESTING_READINESS_REPORT.md",
+      "size": 8078,
+      "modified": 1755106939.7688818
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\legacy_archive_cleanup\\VPA_PROJECT_COMPREHENSIVE_REPORT.md",
+      "size": 10754,
+      "modified": 1755106939.7714105
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\auth_providers.py",
+      "size": 16458,
+      "modified": 1755194917.696462
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_auth_providers.py",
+      "size": 1935,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\client_secret_194716834181-tfrhgtufr8uf5fpjdg14064ddlcrej40.apps.googleusercontent.com.json",
+      "size": 402,
+      "modified": 1753188323.2269678
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_MAIN_FEEDBACK_Version2.md",
+      "size": 10621,
+      "modified": 1752597595.3402486
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_REFERENCEDOCS_FEEDBACK_Version2 (1).md",
+      "size": 12292,
+      "modified": 1752600571.5884955
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\PROJECT_ANALYSIS_REFERENCEDOCS_FEEDBACK_Version2.md",
+      "size": 12292,
+      "modified": 1752597597.429275
+    }
+  ],
+  "llm_config": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\INSTALL_WINDOWS.md",
+      "size": 8485,
+      "modified": 1755207056.3493164
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\demo_rag_llm_ui.py",
+      "size": 15112,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\build\\vpa-win\\warn-vpa-win.txt",
+      "size": 243338,
+      "modified": 1755201240.5331888
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\rag_llm_menu.py",
+      "size": 15927,
+      "modified": 1755194917.7079682
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\llm\\llm_router.py",
+      "size": 9008,
+      "modified": 1755207056.4447646
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\Downloads\\llama.cpp-master\\llama.cpp-master\\convert_hf_to_gguf.py",
+      "size": 306095,
+      "modified": 1750308972.0
+    }
+  ],
+  "gui_state": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\hotfix_results.txt",
+      "size": 44713,
+      "modified": 1755200113.173463
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\smoke_help.txt",
+      "size": 860,
+      "modified": 1755202377.8575044
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\VPA_INTENT_SYNTHESIS.md",
+      "size": 7532,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\voice_configuration_system.py",
+      "size": 18042,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\gui_screen_tester.py",
+      "size": 38901,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\test_chat_components.py",
+      "size": 5437,
+      "modified": 1755106939.573802
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\legacy_files_20250721_083431\\vpa_complete_launcher.py",
+      "size": 12264,
+      "modified": 1755106939.5825932
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\archive\\unused_ui_system\\ui\\chat_ui.py",
+      "size": 29585,
+      "modified": 1755106939.5918193
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\build\\vpa-win\\warn-vpa-win.txt",
+      "size": 243338,
+      "modified": 1755201240.5331888
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\config\\default.yaml",
+      "size": 4071,
+      "modified": 1755200187.249289
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\dist\\vpa\\_internal\\config\\default.yaml",
+      "size": 4071,
+      "modified": 1755201256.6671576
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\docs\\LOGBOOK.md",
+      "size": 62511,
+      "modified": 1755194922.693598
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov\\status.json",
+      "size": 42765,
+      "modified": 1753209629.472879
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\htmlcov_resource_monitor\\status.json",
+      "size": 42073,
+      "modified": 1753206814.0416765
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\referencedocuments\\My-VPA-Beta\\AI_ASSISTANT_SYSTEM_OVERVIEW.md",
+      "size": 18394,
+      "modified": 1752096831.8964555
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\core\\enterprise_expansion_intelligent_automation.py",
+      "size": 61844,
+      "modified": 1755194917.6994617
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\src\\vpa\\gui\\main_window.py",
+      "size": 16315,
+      "modified": 1755194917.7069685
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_enterprise_expansion_intelligent_automation.py",
+      "size": 28301,
+      "modified": 1755194917.7182133
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_gui_manager_coverage.py",
+      "size": 4773,
+      "modified": 1755106939.8028169
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\gui\\test_gui_integration.py",
+      "size": 16712,
+      "modified": 1755194917.7217162
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\htmlcov\\status.json",
+      "size": 30985,
+      "modified": 1752841411.736964
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_archives.py",
+      "size": 16321,
+      "modified": 1755207460.9804745
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    }
+  ],
+  "email_config": [
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage.json",
+      "size": 1213556,
+      "modified": 1755107301.787429
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\coverage_gui.json",
+      "size": 1113754,
+      "modified": 1755107301.7904277
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_coverage.json",
+      "size": 1116062,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\strategic_sprint_coverage.json",
+      "size": 1116412,
+      "modified": 1755107301.8064177
+    },
+    {
+      "file": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tools\\recover\\scan_local.py",
+      "size": 10108,
+      "modified": 1755207265.6427107
+    }
+  ]
+}

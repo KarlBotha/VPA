@@ -7,8 +7,8 @@ Enter the new date: (yy-mm-dd)
 
 ## 📊 **DISCOVERY SUMMARY**
 
-- **Files Scanned**: 45
-- **Pattern Matches**: 64
+- **Files Scanned**: 57
+- **Pattern Matches**: 57
 - **Recovery Targets**: 21
 
 ## 🗺️ **RECOVERY MAP**
@@ -16,105 +16,80 @@ Enter the new date: (yy-mm-dd)
 | Component | Candidates Found | Best Match |
 |-----------|------------------|------------|
 | Gui Manager | 0 | ❌ `❌ NOT FOUND` |
-| Auth Coord | 0 | ❌ `❌ NOT FOUND` |
-| Secure Config | 1 | ✅ `src\vpa\core\config.py` |
-| Conversation Db | 1 | ✅ `src\vpa\core\database.py` |
-| Login Window | 0 | ❌ `❌ NOT FOUND` |
-| Register Window | 0 | ❌ `❌ NOT FOUND` |
-| Settings Window | 1 | ✅ `archive\legacy_files_20250721_083431\vpa_complete_validation.py` |
-| Graph Api | 1 | ✅ `archive\microsoft_logic_old.py` |
-| Gmail Client | 0 | ❌ `❌ NOT FOUND` |
-| Imap Client | 0 | ❌ `❌ NOT FOUND` |
-| Smtp Client | 0 | ❌ `❌ NOT FOUND` |
-| Openai Client | 1 | ✅ `src\vpa\core\llm_provider_manager.py` |
-| Anthropic Client | 1 | ✅ `src\vpa\core\llm_provider_manager.py` |
-| Google Ai | 1 | ✅ `src\vpa\core\llm_provider_manager.py` |
-| Speech Recognition | 5 | ✅ `archive\legacy_files_20250721_083431\install_audio_dependencies.py` |
-| Whisper Client | 5 | ✅ `archive\legacy_files_20250721_083431\test_audio_core.py` |
-| Microphone | 5 | ✅ `archive\legacy_files_20250721_083431\install_audio_dependencies.py` |
-| Tts System | 5 | ✅ `archive\audio_diagnostics.py` |
-| Audio Manager | 1 | ✅ `archive\legacy_files_20250721_083431\gui_screen_tester.py` |
-| Chat Interface | 0 | ❌ `❌ NOT FOUND` |
-| Main Window | 1 | ✅ `archive\legacy_files_20250721_083431\vpa_complete_validation.py` |
+| Login Form | 0 | ❌ `❌ NOT FOUND` |
+| Registration | 0 | ❌ `❌ NOT FOUND` |
+| Settings Panel | 1 | ✅ `archive\unused_ui_system\ui\components\settings_panel.py` |
+| Oauth Callback | 0 | ❌ `❌ NOT FOUND` |
+| Email Handler | 0 | ❌ `❌ NOT FOUND` |
+| Llm Client | 0 | ❌ `❌ NOT FOUND` |
+| Stt Engine | 0 | ❌ `❌ NOT FOUND` |
+| Tts Engine | 0 | ❌ `❌ NOT FOUND` |
+| Plugin Loader | 0 | ❌ `❌ NOT FOUND` |
+| Event Handler | 0 | ❌ `❌ NOT FOUND` |
+| Auth Manager | 0 | ❌ `❌ NOT FOUND` |
+| Db Manager | 0 | ❌ `❌ NOT FOUND` |
+| Config Manager | 0 | ❌ `❌ NOT FOUND` |
+| App Launcher | 5 | ✅ `archive\audio_diagnostics.py` |
+| Ui Builder | 0 | ❌ `❌ NOT FOUND` |
+| Voice Commands | 0 | ❌ `❌ NOT FOUND` |
+| Security Layer | 0 | ❌ `❌ NOT FOUND` |
+| Notification System | 0 | ❌ `❌ NOT FOUND` |
+| File Manager | 0 | ❌ `❌ NOT FOUND` |
+| Scheduler | 0 | ❌ `❌ NOT FOUND` |
 
 ## 🔍 **DETAILED FINDINGS**
 
 ### GUI Components
 
 - ❌ **Gui Manager**: Not found
-- ✅ **Main Window**: 1 candidate(s)
-  - `archive\legacy_files_20250721_083431\vpa_complete_validation.py`
+- ❌ **Main Window**: Not found
 - ❌ **Chat Interface**: Not found
 - ❌ **Login Window**: Not found
 - ❌ **Register Window**: Not found
-- ✅ **Settings Window**: 1 candidate(s)
-  - `archive\legacy_files_20250721_083431\vpa_complete_validation.py`
+- ❌ **Settings Window**: Not found
+- *No components found in this category*
 
 ### Authentication
 
 - ❌ **Auth Coord**: Not found
-- ✅ **Secure Config**: 1 candidate(s)
-  - `src\vpa\core\config.py`
+- ❌ **Secure Config**: Not found
+- *No components found in this category*
 
 ### Database
 
-- ✅ **Conversation Db**: 1 candidate(s)
-  - `src\vpa\core\database.py`
+- ❌ **Conversation Db**: Not found
+- *No components found in this category*
 
 ### LLM Integration
 
-- ✅ **Openai Client**: 1 candidate(s)
-  - `src\vpa\core\llm_provider_manager.py`
-- ✅ **Anthropic Client**: 1 candidate(s)
-  - `src\vpa\core\llm_provider_manager.py`
-- ✅ **Google Ai**: 1 candidate(s)
-  - `src\vpa\core\llm_provider_manager.py`
+- ❌ **Openai Client**: Not found
+- ❌ **Anthropic Client**: Not found
+- ❌ **Google Ai**: Not found
+- *No components found in this category*
 
 ### Audio System
 
-- ✅ **Tts System**: 5 candidate(s)
-  - `archive\audio_diagnostics.py`
-  - `archive\comprehensive_validation.py`
-  - `archive\comprehensive_voice_assessment.py`
-  - *(+2 more)*
-- ✅ **Audio Manager**: 1 candidate(s)
-  - `archive\legacy_files_20250721_083431\gui_screen_tester.py`
-- ✅ **Speech Recognition**: 5 candidate(s)
-  - `archive\legacy_files_20250721_083431\install_audio_dependencies.py`
-  - `archive\audio_calibration_test.py`
-  - `archive\legacy_files_20250721_083431\test_audio_core.py`
-  - *(+2 more)*
-- ✅ **Whisper Client**: 5 candidate(s)
-  - `archive\legacy_files_20250721_083431\test_audio_core.py`
-  - `archive\legacy_files_20250721_083431\validate_record_button.py`
-  - `archive\legacy_files_20250721_083431\gui_screen_tester.py`
-  - *(+2 more)*
-- ✅ **Microphone**: 5 candidate(s)
-  - `archive\legacy_files_20250721_083431\install_audio_dependencies.py`
-  - `archive\audio_calibration_test.py`
-  - `archive\legacy_files_20250721_083431\test_audio_core.py`
-  - *(+2 more)*
+- ❌ **Tts System**: Not found
+- ❌ **Audio Manager**: Not found
+- ❌ **Speech Recognition**: Not found
+- ❌ **Whisper Client**: Not found
+- ❌ **Microphone**: Not found
+- *No components found in this category*
 
 ### External APIs
 
-- ✅ **Graph Api**: 1 candidate(s)
-  - `archive\microsoft_logic_old.py`
+- ❌ **Graph Api**: Not found
 - ❌ **Gmail Client**: Not found
 - ❌ **Imap Client**: Not found
 - ❌ **Smtp Client**: Not found
+- *No components found in this category*
 
 ## 🚀 **IMPLEMENTATION RECOMMENDATIONS**
 
-✅ **GUI Recovery**: Feasible - GUI components found
-   - Implement `src/vpa/gui/chat_entry.py` with dynamic loading
-   - Add `--gui` CLI flag
+❌ **GUI Recovery**: Limited - Create minimal tkinter fallback
 ⚠️ **Auth Recovery**: Basic - Simple config-based auth only
-✅ **LLM Recovery**: Feasible - LLM integrations found
-   - Implement `src/vpa/llm/llm_router.py`
-   - Add `--chat` CLI flag
-✅ **Audio Recovery**: Feasible - STT components found
-   - Implement `src/vpa/audio/stt_entry.py`
-   - Add microphone input capabilities
+⚠️ **LLM Recovery**: Fallback - Echo/mock responses only
+⚠️ **Audio Recovery**: TTS-only - No STT integration
 
 ## 🎯 **NEXT ACTIONS**
 

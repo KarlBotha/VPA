@@ -1,0 +1,26 @@
+usage: __main__.py [-h] [--cli] [--gui] [--chat CHAT] [--auth] [--listen]
+                   [--config CONFIG]
+                   [--log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}]
+                   [--version]
+
+VPA - Virtual Personal Assistant
+
+options:
+  -h, --help            show this help message and exit
+  --cli                 Launch in CLI mode
+  --gui                 Launch in GUI mode (default)
+  --chat CHAT           Send a chat message to LLM and exit
+  --auth                Run authentication flow
+  --listen              Start speech-to-text listening mode
+  --config CONFIG       Path to configuration file
+  --log-level {DEBUG,INFO,WARNING,ERROR,CRITICAL}
+                        Set logging level
+  --version             show program's version number and exit
+
+Examples:
+  __main__.py                    # Launch GUI (default)
+  __main__.py --cli              # Launch CLI interface
+  __main__.py --gui              # Launch GUI explicitly
+  __main__.py --log-level DEBUG  # Set debug logging
+  __main__.py --config myconfig.yaml  # Use custom config
+        

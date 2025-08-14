@@ -1,0 +1,30 @@
+{
+  "total_errors": 0,
+  "consolidation": "SUCCESS",
+  "local_evidence_files": 506,
+  "components_found": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "archive_scan": "SUCCESS",
+  "local_scan": "SUCCESS"
+}

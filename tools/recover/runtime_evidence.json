@@ -1,0 +1,39 @@
+{
+  "cli_help": {
+    "exit_code": 0,
+    "success": true,
+    "response_time_ms": 155.0,
+    "output_lines": 23
+  },
+  "errors": [
+    "Chat test failed - likely missing API keys",
+    "Audio system enumeration failed",
+    "Test collection failed"
+  ],
+  "perf_baseline": {
+    "test_duration_ms": 95.65,
+    "exit_code": 0,
+    "success": true,
+    "memory_usage_mb": 21.5,
+    "import_time_ms": 37.6
+  },
+  "audio_enum": {
+    "exit_code": 1,
+    "success": false,
+    "microphone_count": 0,
+    "response_time_ms": 75.41
+  },
+  "chat_test": {
+    "exit_code": 1,
+    "success": false,
+    "response_time_ms": 590.91,
+    "output_length": 14417
+  },
+  "test_run": {
+    "tests_collected": 730,
+    "collection_exit_code": 2,
+    "collection_time_ms": 8007.73,
+    "collection_success": false
+  },
+  "timestamp": "2025-08-14 23:43:16"
+}
