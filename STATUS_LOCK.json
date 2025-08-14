@@ -1,0 +1,68 @@
+{
+  "generated": "2025-08-14T21:11:18",
+  "branch": "recovery/full-restore", 
+  "head": "b780e6a13ec3c60fbe4a2e139b9c1615dd2403f0",
+  "tag": "alignment-20250814-211118",
+  "artifacts": [
+    {
+      "path": "VPA_INTENT_SYNTHESIS.md",
+      "size_bytes": 7738,
+      "sha256": "4073AC41CDC5817E15F910EA11CBE99ECDE1134745C6B423A30C8C7974633C66",
+      "status": "complete"
+    },
+    {
+      "path": "VPA_INTENT_SIGNALS.json", 
+      "size_bytes": 4182,
+      "sha256": "6A28941017FA72B08BCF2A9ED144BA0A61AC7E22B22CEF79EF029B8FBCCD7581",
+      "status": "complete"
+    },
+    {
+      "path": "PHASE2_CHECKLIST.md",
+      "size_bytes": 9544, 
+      "sha256": "A6868B7FB18168C1C4B230978C6ECCFF62BACE79DA58AA3800D2334AB431BDC5",
+      "status": "complete"
+    },
+    {
+      "path": "VPA_KNOWLEDGE_RECON.md",
+      "size_bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855", 
+      "status": "empty_crash_artifact"
+    },
+    {
+      "path": "VPA_KNOWLEDGE_RECON.json",
+      "size_bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "status": "empty_crash_artifact"
+    },
+    {
+      "path": "VPA_REMOTE_CONTEXT.json", 
+      "size_bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "status": "empty_crash_artifact"
+    },
+    {
+      "path": "requirements.reconstructed.txt",
+      "size_bytes": 0, 
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "status": "empty_crash_artifact"
+    }
+  ],
+  "alignment_status": {
+    "mission_locked": true,
+    "performance_targets_defined": true,
+    "phase2_roadmap_complete": true,
+    "success_metrics_established": true,
+    "crash_recovery_completed": true
+  },
+  "critical_gaps": [
+    "empty_dependencies_files",
+    "27_test_import_errors", 
+    "missing_requirements_reconstruction"
+  ],
+  "immediate_priorities": [
+    "U1: Rebuild requirements.txt (2h)",
+    "U2: Fix test import errors (4h)",
+    "U3: Validate CLI options (1h)", 
+    "H1: 13-voice catalog implementation (8h)"
+  ]
+}
