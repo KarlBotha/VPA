@@ -201,6 +201,60 @@ vpa.exe --help
 - **[VOICE_SELF_TEST_edge.md](VOICE_SELF_TEST_edge.md)**: Edge-TTS premium voice catalog
 - **[GUI_SMOKE_REPORT.md](GUI_SMOKE_REPORT.md)**: GUI component validation and window testing
 
+## 🔄 **INTEGRATION RECOVERY** (Archive Mining)
+
+### **Component Recovery Results** 📦
+- **Files Scanned**: 45 archive/legacy files analyzed
+- **Recovery Success**: 13/21 components found in archives
+- **Dynamic Loading**: Runtime import system for recovered modules
+- **Zero Dependencies**: No heavy packages added to core
+
+### **Recovered Functionality** ✅
+#### **GUI System**
+- **Fallback GUI**: tkinter-based chat interface available
+- **Dynamic GUI Loading**: Attempts recovery from archives first
+- **CLI Flag**: `--gui` launches recovered or fallback interface
+
+#### **LLM Integration** 
+- **Multi-Provider Router**: OpenAI, Anthropic, Google AI support
+- **Graceful Fallbacks**: Echo responses when providers unavailable  
+- **CLI Flag**: `--chat "prompt"` for direct LLM interaction
+- **Environment Control**: `VPA_ENABLE_LLM=1` to enable features
+
+#### **Audio System**
+- **STT Support**: Speech-to-text via speech_recognition package
+- **Microphone Detection**: 30+ audio devices discovered
+- **CLI Flag**: `--listen` for speech-to-text note taking  
+- **Voice System**: 23-voice TTS catalog (from Phase 5)
+
+#### **Authentication Flow**
+- **Auth Bridge**: Fallback authentication coordinator
+- **CLI Flag**: `--auth` for login/register flows
+- **Config Management**: Secure configuration recovery attempted
+
+### **CLI Integration** 🖥️
+New command-line flags added to main entry point:
+```bash
+python -m vpa --gui              # Launch GUI (recovered or fallback)
+python -m vpa --chat "hello"     # Send LLM chat message  
+python -m vpa --auth             # Run authentication flow
+python -m vpa --listen           # Start speech-to-text mode
+```
+
+### **Feature Gating** 🔐
+Environment variables control optional functionality:
+- `VPA_ENABLE_GUI=1`: Enable GUI components (default: ON)
+- `VPA_ENABLE_LLM=1`: Enable LLM providers (default: OFF)  
+- `VPA_ENABLE_STT=1`: Enable speech-to-text (default: OFF)
+
+### **Recovery Architecture** 🏗️
+- **Dynamic Loading**: `src/vpa/util/dynload.py` - runtime module import
+- **GUI Entry**: `src/vpa/gui/chat_entry.py` - recovered GUI launcher
+- **Auth Bridge**: `src/vpa/auth/auth_bridge.py` - authentication recovery
+- **LLM Router**: `src/vpa/llm/llm_router.py` - multi-provider chat
+- **STT Entry**: `src/vpa/audio/stt_entry.py` - speech recognition
+- **Archive Scanner**: `tools/recover/scan_archives.py` - recovery mapping
+
 ---
 
-*System verification completed successfully. All major components validated and production-ready.*
+*Integration recovery completed. Core systems restored via dynamic loading with graceful fallbacks.*

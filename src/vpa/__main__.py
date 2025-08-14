@@ -24,6 +24,27 @@ if str(src_path) not in sys.path:
 from vpa.core.app import App
 from vpa.cli.main import cli
 
+# Import recovery components (optional)
+try:
+    from vpa.gui.chat_entry import run_gui  # type: ignore
+except Exception:
+    run_gui = None
+
+try:
+    from vpa.llm.llm_router import chat as llm_chat  # type: ignore
+except Exception:
+    llm_chat = None
+
+try:
+    from vpa.auth.auth_bridge import run_auth_flow  # type: ignore
+except Exception:
+    run_auth_flow = None
+
+try:
+    from vpa.audio.stt_entry import run_stt_note  # type: ignore
+except Exception:
+    run_stt_note = None
+
 
 def setup_logging(level: str = "INFO") -> None:
     """Setup basic logging configuration"""
@@ -107,6 +128,73 @@ def launch_cli(config_path: Optional[str] = None) -> int:
         return 1
 
 
+def handle_chat_mode(prompt: str) -> int:
+    """Handle --chat mode"""
+    logger = logging.getLogger(__name__)
+    
+    if not llm_chat:
+        print("❌ LLM chat not available. Install openai, anthropic, or google-generativeai packages.")
+        return 1
+    
+    try:
+        logger.info(f"💬 Chat mode: {prompt[:50]}...")
+        result = llm_chat(prompt)
+        
+        if result.get("success"):
+            print(f"🤖 {result['response']}")
+            print(f"🔍 Provider: {result['provider']}")
+            return 0
+        else:
+            print(f"❌ Chat failed: {result.get('error', 'Unknown error')}")
+            return 1
+            
+    except Exception as e:
+        logger.error(f"❌ Chat mode failed: {e}")
+        return 1
+
+
+def handle_auth_mode() -> int:
+    """Handle --auth mode"""
+    logger = logging.getLogger(__name__)
+    
+    if not run_auth_flow:
+        print("❌ Authentication flow not available.")
+        return 1
+    
+    try:
+        logger.info("🔐 Authentication mode")
+        success = run_auth_flow()
+        return 0 if success else 1
+        
+    except Exception as e:
+        logger.error(f"❌ Auth mode failed: {e}")
+        return 1
+
+
+def handle_listen_mode() -> int:
+    """Handle --listen mode"""
+    logger = logging.getLogger(__name__)
+    
+    if not run_stt_note:
+        print("❌ Speech-to-text not available. Install speech_recognition package.")
+        return 1
+    
+    try:
+        logger.info("🎤 Listen mode")
+        result = run_stt_note()
+        
+        if result.get("success"):
+            print(f"📝 Heard: {result['text']}")
+            return 0
+        else:
+            print(f"❌ STT failed: {result.get('error', 'Unknown error')}")
+            return 1
+            
+    except Exception as e:
+        logger.error(f"❌ Listen mode failed: {e}")
+        return 1
+
+
 def main() -> int:
     """Main application entry point"""
     parser = argparse.ArgumentParser(
@@ -132,6 +220,24 @@ Examples:
         '--gui',
         action='store_true',
         help='Launch in GUI mode (default)'
+    )
+    
+    parser.add_argument(
+        '--chat',
+        type=str,
+        help='Send a chat message to LLM and exit'
+    )
+    
+    parser.add_argument(
+        '--auth',
+        action='store_true',
+        help='Run authentication flow'
+    )
+    
+    parser.add_argument(
+        '--listen',
+        action='store_true',
+        help='Start speech-to-text listening mode'
     )
     
     parser.add_argument(
@@ -172,16 +278,33 @@ Examples:
         return 1
     
     try:
-        # Create VPA app instance
+        # Handle special modes first
+        if args.chat:
+            return handle_chat_mode(args.chat)
+        elif args.auth:
+            return handle_auth_mode()
+        elif args.listen:
+            return handle_listen_mode()
+        
+        # Create VPA app instance for regular modes
         app = App(config_path=args.config)
         
         # Determine launch mode
         if args.cli:
             mode = "CLI"
             exit_code = launch_cli(args.config)
-        elif args.gui:
+        elif args.gui or (os.getenv("VPA_ENABLE_GUI", "1").lower() in ["1", "true", "yes"]):
             mode = "GUI"
-            exit_code = launch_gui(app)
+            # Try recovered GUI first
+            if run_gui and os.getenv("VPA_ENABLE_GUI", "1").lower() in ["1", "true", "yes"]:
+                try:
+                    run_gui()
+                    exit_code = 0
+                except Exception as e:
+                    logger.error(f"Recovered GUI failed: {e}")
+                    exit_code = launch_gui(app)
+            else:
+                exit_code = launch_gui(app)
         else:
             # Default to GUI, fallback to CLI if GUI not available
             mode = "GUI (with CLI fallback)"
