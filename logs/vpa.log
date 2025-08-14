@@ -173,3 +173,57 @@
 2025-08-14 18:29:04,828 - __main__ - INFO - Environment check passed
 2025-08-14 18:29:04,828 - vpa.core.config - INFO - Created new encryption key for secure configuration
 2025-08-14 18:29:04,828 - __main__ - INFO - 🖥️ Starting VPA CLI Application...
+2025-08-14 18:29:49,891 - __main__ - INFO - ============================================================
+2025-08-14 18:29:49,891 - __main__ - INFO - 🤖 VPA - Virtual Personal Assistant
+2025-08-14 18:29:49,891 - __main__ - INFO - 📦 Version: 0.1.0 - Phase 2
+2025-08-14 18:29:49,891 - __main__ - INFO - 🐍 Python: 3.12.3
+2025-08-14 18:29:49,891 - __main__ - INFO - 📁 Project Root: /home/runner/work/VPA/VPA
+2025-08-14 18:29:49,891 - __main__ - INFO - ============================================================
+2025-08-14 18:29:49,892 - __main__ - WARNING - Not running in virtual environment - this is not recommended
+2025-08-14 18:29:49,892 - __main__ - INFO - Environment check passed
+2025-08-14 18:29:49,892 - __main__ - INFO - 🖥️ Starting VPA CLI Application...
+2025-08-14 18:30:29,457 - __main__ - INFO - ============================================================
+2025-08-14 18:30:29,457 - __main__ - INFO - 🤖 VPA - Virtual Personal Assistant
+2025-08-14 18:30:29,457 - __main__ - INFO - 📦 Version: 0.1.0 - Phase 2
+2025-08-14 18:30:29,457 - __main__ - INFO - 🐍 Python: 3.12.3
+2025-08-14 18:30:29,457 - __main__ - INFO - 📁 Project Root: /home/runner/work/VPA/VPA
+2025-08-14 18:30:29,457 - __main__ - INFO - ============================================================
+2025-08-14 18:30:29,458 - __main__ - WARNING - Not running in virtual environment - this is not recommended
+2025-08-14 18:30:29,458 - __main__ - INFO - Environment check passed
+2025-08-14 18:30:29,458 - __main__ - INFO - 🖥️ Starting VPA CLI Application...
+2025-08-14 18:32:00,531 - __main__ - INFO - ============================================================
+2025-08-14 18:32:00,531 - __main__ - INFO - 🤖 VPA - Virtual Personal Assistant
+2025-08-14 18:32:00,531 - __main__ - INFO - 📦 Version: 0.1.0 - Phase 2
+2025-08-14 18:32:00,531 - __main__ - INFO - 🐍 Python: 3.12.3
+2025-08-14 18:32:00,531 - __main__ - INFO - 📁 Project Root: /home/runner/work/VPA/VPA
+2025-08-14 18:32:00,531 - __main__ - INFO - ============================================================
+2025-08-14 18:32:00,531 - __main__ - WARNING - Not running in virtual environment - this is not recommended
+2025-08-14 18:32:00,531 - __main__ - INFO - Environment check passed
+2025-08-14 18:32:00,532 - __main__ - INFO - 🖥️ Starting VPA CLI Application...
+2025-08-14 18:32:12,501 - __main__ - INFO - ============================================================
+2025-08-14 18:32:12,501 - __main__ - INFO - 🤖 VPA - Virtual Personal Assistant
+2025-08-14 18:32:12,501 - __main__ - INFO - 📦 Version: 0.1.0 - Phase 2
+2025-08-14 18:32:12,501 - __main__ - INFO - 🐍 Python: 3.12.3
+2025-08-14 18:32:12,501 - __main__ - INFO - 📁 Project Root: /home/runner/work/VPA/VPA
+2025-08-14 18:32:12,501 - __main__ - INFO - ============================================================
+2025-08-14 18:32:12,501 - __main__ - WARNING - Not running in virtual environment - this is not recommended
+2025-08-14 18:32:12,501 - __main__ - INFO - Environment check passed
+2025-08-14 18:32:12,502 - __main__ - INFO - 🖥️ Starting VPA CLI Application...
+2025-08-14 18:32:12,502 - vpa.core.app - INFO - Initializing VPA application...
+2025-08-14 18:32:12,503 - vpa.core.config - INFO - Configuration loaded from /home/runner/work/VPA/VPA/config/default.yaml
+2025-08-14 18:32:12,503 - vpa.core.events - INFO - Event bus initialized
+2025-08-14 18:32:12,503 - vpa.core.plugins - INFO - Loading plugins...
+2025-08-14 18:32:12,503 - vpa.core.plugins - INFO - Discovered 2 plugins
+2025-08-14 18:32:12,561 - vpa.core.plugins - WARNING - No valid plugin interface found in: ai
+2025-08-14 18:32:12,565 - vpa.core.plugins - ERROR - Failed to load plugin audio: No module named 'pyttsx3'
+2025-08-14 18:32:12,565 - vpa.core.plugins - INFO - Loaded 0 plugins in 0.063s
+2025-08-14 18:32:12,566 - vpa.core.app - INFO - VPA application initialized successfully in 0.063s
+2025-08-14 18:33:01,668 - vpa.__main__ - INFO - ============================================================
+2025-08-14 18:33:01,669 - vpa.__main__ - INFO - 🤖 VPA - Virtual Personal Assistant
+2025-08-14 18:33:01,669 - vpa.__main__ - INFO - 📦 Version: 0.1.0 - Phase 2
+2025-08-14 18:33:01,669 - vpa.__main__ - INFO - 🐍 Python: 3.12.3
+2025-08-14 18:33:01,669 - vpa.__main__ - INFO - 📁 Project Root: /home/runner/work/VPA/VPA
+2025-08-14 18:33:01,669 - vpa.__main__ - INFO - ============================================================
+2025-08-14 18:33:01,669 - vpa.__main__ - WARNING - Not running in virtual environment - this is not recommended
+2025-08-14 18:33:01,669 - vpa.__main__ - INFO - Environment check passed
+2025-08-14 18:33:01,669 - vpa.__main__ - INFO - 🖥️ Starting VPA CLI Application...
