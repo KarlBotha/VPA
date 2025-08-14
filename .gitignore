@@ -14,3 +14,26 @@ ENV/
 .coverage
 *.log
 *.tmp
+
+# Archive and cleanup files
+archive/
+archive_optimization/
+archived_ui_redundant/
+legacy_archive_cleanup/
+cleanup_*.txt
+temp_*.txt
+*_analysis.json
+*_report.json
+*_verification*.json
+optimization*.json
+performance*.json
+*_audit.json
+strategic*.json
+coverage*.json
+detailed_*.txt
+directory_*.txt
+file_count_*.txt
+largest_*.txt
+src_*.txt
+*_logbook.md
+*.db
