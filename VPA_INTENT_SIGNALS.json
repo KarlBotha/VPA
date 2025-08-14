@@ -1,0 +1,149 @@
+{
+  "generated": "2025-08-14T20:50:00Z",
+  "branch": "recovery/full-restore",
+  "status": "synthesis_complete",
+  "crash_context": {
+    "previous_run_issues": "VPA_KNOWLEDGE_RECON files empty due to PowerShell crash",
+    "mitigation": "Manual signal gathering from multiple sources completed"
+  },
+  "mission": {
+    "statement": "VPA is an event-driven, high-performance Virtual Personal Assistant architected for Windows deployment with zero-bloat principles, sub-10-second startup, and a comprehensive 13-voice catalog.",
+    "core_principles": [
+      "performance_first",
+      "event_driven", 
+      "compartmentalized_plugins",
+      "zero_bloat",
+      "windows_native"
+    ]
+  },
+  "non_functional_requirements": {
+    "startup_time": {
+      "target": "<10s",
+      "status": "achieved",
+      "priority": "critical"
+    },
+    "memory_usage": {
+      "target": "<2GB", 
+      "status": "maintained",
+      "priority": "critical"
+    },
+    "event_dispatch": {
+      "target": "<10ms",
+      "status": "architecture_ready",
+      "priority": "high"
+    },
+    "voice_synthesis": {
+      "target": "<2s",
+      "status": "implementation_ready", 
+      "priority": "high"
+    },
+    "zero_bloat_policy": {
+      "target": "no_files_over_10MB",
+      "status": "enforced",
+      "priority": "critical"
+    },
+    "test_coverage": {
+      "target": ">90%",
+      "status": "27_import_errors",
+      "priority": "high"
+    },
+    "cli_responsiveness": {
+      "target": "instant_recognition",
+      "status": "working_perfectly",
+      "priority": "medium"
+    },
+    "plugin_isolation": {
+      "target": "error_boundaries_prevent_crashes",
+      "status": "architecture_complete",
+      "priority": "medium"
+    }
+  },
+  "functional_capabilities": {
+    "completed": [
+      "cli_interface",
+      "event_bus_system",
+      "plugin_manager", 
+      "application_manager",
+      "core_architecture",
+      "windows_integration"
+    ],
+    "implementation_ready": [
+      "13_voice_catalog",
+      "audio_system",
+      "gui_shell",
+      "ai_llm_integration",
+      "plugin_system"
+    ],
+    "requires_resolution": [
+      "dependency_management",
+      "test_import_paths",
+      "configuration_persistence",
+      "production_telemetry"
+    ]
+  },
+  "evidence_sources": {
+    "high_weight": [
+      ".github/copilot-instructions.md",
+      "PR #18 body and comments",
+      "Live CLI validation"
+    ],
+    "medium_weight": [
+      "Code structure analysis",
+      "Git commit history",
+      "Requirements reconstruction"
+    ]
+  },
+  "critical_gaps": [
+    "empty_dependencies_files",
+    "test_import_failures_27_errors", 
+    "missing_config_templates"
+  ],
+  "high_priority_risks": [
+    "knowledge_recon_incomplete_crash_artifact",
+    "production_deployment_missing_assets"
+  ],
+  "open_questions": [
+    "dependency_management_tool_choice",
+    "voice_engine_priority_for_13_catalog",
+    "config_format_selection",
+    "windows_packaging_tool"
+  ],
+  "phase2_priorities": {
+    "urgent_days_1_3": [
+      "reconstruct_requirements_txt",
+      "resolve_27_test_import_errors", 
+      "validate_cli_functionality"
+    ],
+    "high_week_1": [
+      "implement_13_voice_catalog",
+      "complete_windows_packaging_prep",
+      "establish_performance_regression_testing"
+    ],
+    "medium_week_2_3": [
+      "plugin_system_validation",
+      "configuration_management",
+      "production_telemetry"
+    ],
+    "low_week_4_plus": [
+      "gui_enhancements",
+      "advanced_plugin_documentation", 
+      "performance_optimization_beyond_targets"
+    ]
+  },
+  "success_metrics": {
+    "phase2_completion": [
+      "pip_install_succeeds",
+      "pytest_zero_collection_errors", 
+      "cli_all_options_functional",
+      "voice_synthesis_under_2s",
+      "pyinstaller_spec_generates_executable"
+    ],
+    "production_readiness": [
+      "startup_under_10s_monitored",
+      "runtime_under_2GB_normal_load",
+      "event_dispatch_under_10ms",
+      "plugin_failures_contained",
+      "zero_bloat_maintained"
+    ]
+  }
+}
