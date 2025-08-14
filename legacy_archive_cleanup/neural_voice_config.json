@@ -1,0 +1,143 @@
+{
+  "current_voice_id": "en-US-AriaNeural",
+  "playback_settings": {
+    "rate": "+0%",
+    "volume": "+0%",
+    "pitch": "+0Hz"
+  },
+  "voice_catalog": {
+    "en-US-AndrewNeural": {
+      "voice_id": "en-US-AndrewNeural",
+      "name": "Andrew",
+      "gender": "Male",
+      "language": "English",
+      "region": "US",
+      "quality": "Premium",
+      "description": "Professional male voice, clear and authoritative",
+      "sample_phrase": "Hello, I'm Andrew. I'll be your AI assistant today.",
+      "enabled": true
+    },
+    "en-US-ChristopherNeural": {
+      "voice_id": "en-US-ChristopherNeural",
+      "name": "Christopher",
+      "gender": "Male",
+      "language": "English",
+      "region": "US",
+      "quality": "Premium",
+      "description": "Friendly male voice, conversational and warm",
+      "sample_phrase": "Hi there! I'm Christopher, ready to help you with anything.",
+      "enabled": true
+    },
+    "en-US-GuyNeural": {
+      "voice_id": "en-US-GuyNeural",
+      "name": "Guy",
+      "gender": "Male",
+      "language": "English",
+      "region": "US",
+      "quality": "Premium",
+      "description": "Mature male voice, professional and reliable",
+      "sample_phrase": "Good day! I'm Guy, your virtual personal assistant.",
+      "enabled": true
+    },
+    "en-GB-RogerNeural": {
+      "voice_id": "en-GB-RogerNeural",
+      "name": "Roger",
+      "gender": "Male",
+      "language": "English",
+      "region": "GB",
+      "quality": "Premium",
+      "description": "British male voice, sophisticated and articulate",
+      "sample_phrase": "Good afternoon. I'm Roger, pleased to assist you today.",
+      "enabled": true
+    },
+    "en-US-EricNeural": {
+      "voice_id": "en-US-EricNeural",
+      "name": "Eric",
+      "gender": "Male",
+      "language": "English",
+      "region": "US",
+      "quality": "Premium",
+      "description": "Young adult male voice, energetic and friendly",
+      "sample_phrase": "Hey! I'm Eric, your AI companion for today's tasks.",
+      "enabled": true
+    },
+    "en-GB-SteffanNeural": {
+      "voice_id": "en-GB-SteffanNeural",
+      "name": "Steffan",
+      "gender": "Male",
+      "language": "English",
+      "region": "GB",
+      "quality": "Premium",
+      "description": "Welsh-accented male voice, distinctive and pleasant",
+      "sample_phrase": "Hello! I'm Steffan, ready to help with your requests.",
+      "enabled": true
+    },
+    "en-US-EmmaNeural": {
+      "voice_id": "en-US-EmmaNeural",
+      "name": "Emma",
+      "gender": "Female",
+      "language": "English",
+      "region": "US",
+      "quality": "Premium",
+      "description": "Professional female voice, clear and confident",
+      "sample_phrase": "Hello! I'm Emma, your AI assistant for today.",
+      "enabled": true
+    },
+    "en-US-AvaNeural": {
+      "voice_id": "en-US-AvaNeural",
+      "name": "Ava",
+      "gender": "Female",
+      "language": "English",
+      "region": "US",
+      "quality": "Premium",
+      "description": "Young female voice, modern and approachable",
+      "sample_phrase": "Hi! I'm Ava, excited to help you accomplish your goals.",
+      "enabled": true
+    },
+    "en-US-AriaNeural": {
+      "voice_id": "en-US-AriaNeural",
+      "name": "Aria",
+      "gender": "Female",
+      "language": "English",
+      "region": "US",
+      "quality": "Premium",
+      "description": "Sophisticated female voice, elegant and professional",
+      "sample_phrase": "Good day! I'm Aria, your virtual personal assistant.",
+      "enabled": true
+    },
+    "en-US-JennyNeural": {
+      "voice_id": "en-US-JennyNeural",
+      "name": "Jenny",
+      "gender": "Female",
+      "language": "English",
+      "region": "US",
+      "quality": "Premium",
+      "description": "Warm female voice, friendly and supportive",
+      "sample_phrase": "Hello there! I'm Jenny, here to make your day easier.",
+      "enabled": true
+    },
+    "en-GB-LibbyNeural": {
+      "voice_id": "en-GB-LibbyNeural",
+      "name": "Libby",
+      "gender": "Female",
+      "language": "English",
+      "region": "GB",
+      "quality": "Premium",
+      "description": "British female voice, articulate and professional",
+      "sample_phrase": "Good morning! I'm Libby, delighted to assist you.",
+      "enabled": true
+    },
+    "en-GB-MichelleNeural": {
+      "voice_id": "en-GB-MichelleNeural",
+      "name": "Michelle",
+      "gender": "Female",
+      "language": "English",
+      "region": "GB",
+      "quality": "Premium",
+      "description": "British female voice, warm and conversational",
+      "sample_phrase": "Hello! I'm Michelle, your AI companion today.",
+      "enabled": true
+    }
+  },
+  "timestamp": "2025-07-16T17:25:58.309038"
+}

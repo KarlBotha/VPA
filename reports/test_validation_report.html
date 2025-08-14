@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VPA Integration Validation Report - test_plugin</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .header { background: #f0f0f0; padding: 20px; border-radius: 5px; }
+        .passed { color: green; }
+        .failed { color: red; }
+        .critical { font-weight: bold; }
+        .result { margin: 10px 0; padding: 10px; border-left: 3px solid #ccc; }
+        .result.passed { border-left-color: green; }
+        .result.failed { border-left-color: red; }
+        .details { background: #f9f9f9; padding: 10px; margin: 5px 0; border-radius: 3px; }
+        pre { background: #f0f0f0; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>VPA Integration Validation Report</h1>
+        <h2>test_plugin</h2>
+        <p><strong>Timestamp:</strong> 2025-07-15 15:30:02.956518</p>
+        <p><strong>Overall Status:</strong> 
+            <span class="failed">
+                FAILED
+            </span>
+        </p>
+        <p><strong>Test Coverage:</strong> 0.0%</p>
+    </div>
+    
+    <h3>Validation Results</h3>
+    
+    <div class="result failed">
+        <h4 class="critical">CRITICAL: Event-Driven Design</h4>
+        <p><strong>Status:</strong> <span class="failed">FAILED</span></p>
+        <p><strong>Message:</strong> Missing event-driven patterns</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "event_bus_usage": true,
+  "subscribe_calls": 0,
+  "emit_calls": 0,
+  "event_handlers": 0
+}</pre>
+        </div>
+        </div>
+    <div class="result passed">
+        <h4 class="critical">CRITICAL: Plugin Architecture</h4>
+        <p><strong>Status:</strong> <span class="passed">PASSED</span></p>
+        <p><strong>Message:</strong> Plugin architecture validated</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "plugin_class": true,
+  "initialize_function": true,
+  "cleanup_function": true,
+  "event_bus_integration": true
+}</pre>
+        </div>
+        </div>
+    <div class="result passed">
+        <h4 class="critical">CRITICAL: Modular Design</h4>
+        <p><strong>Status:</strong> <span class="passed">PASSED</span></p>
+        <p><strong>Message:</strong> Modular design validated</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "file_count": 1,
+  "avg_file_size": 606.0,
+  "max_file_size": 606,
+  "import_coupling": 4,
+  "circular_imports": false
+}</pre>
+        </div>
+        </div>
+    <div class="result failed">
+        <h4 class="">Code Quality: Flake8</h4>
+        <p><strong>Status:</strong> <span class="failed">FAILED</span></p>
+        <p><strong>Message:</strong> Flake8 issues found: 0 lines</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "output": "",
+  "errors": "C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: No module named flake8\n",
+  "returncode": 1
+}</pre>
+        </div>
+        </div>
+    <div class="result failed">
+        <h4 class="">Code Quality: Type Checking</h4>
+        <p><strong>Status:</strong> <span class="failed">FAILED</span></p>
+        <p><strong>Message:</strong> Type issues found</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "output": "",
+  "errors": "C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: No module named mypy\n",
+  "returncode": 1
+}</pre>
+        </div>
+        </div>
+    <div class="result failed">
+        <h4 class="critical">CRITICAL: Security Scan</h4>
+        <p><strong>Status:</strong> <span class="failed">FAILED</span></p>
+        <p><strong>Message:</strong> Security issues detected</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "output": "",
+  "errors": "C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: No module named bandit\n",
+  "returncode": 1
+}</pre>
+        </div>
+        </div>
+    <div class="result failed">
+        <h4 class="critical">CRITICAL: Test Coverage</h4>
+        <p><strong>Status:</strong> <span class="failed">FAILED</span></p>
+        <p><strong>Message:</strong> No test files found</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "test_files": []
+}</pre>
+        </div>
+        </div>
+    <div class="result passed">
+        <h4 class="critical">CRITICAL: Resource Cleanup</h4>
+        <p><strong>Status:</strong> <span class="passed">PASSED</span></p>
+        <p><strong>Message:</strong> Cleanup patterns found</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "cleanup_methods": 1,
+  "context_managers": 0,
+  "try_finally_blocks": 0,
+  "resource_tracking": 0
+}</pre>
+        </div>
+        </div>
+    <div class="result failed">
+        <h4 class="">Resource Management: File Safety</h4>
+        <p><strong>Status:</strong> <span class="failed">FAILED</span></p>
+        <p><strong>Message:</strong> Unsafe file operations detected</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "atomic_writes": 0,
+  "temp_file_usage": 0,
+  "file_context_managers": 0,
+  "unsafe_operations": 0
+}</pre>
+        </div>
+        </div>
+    <div class="result passed">
+        <h4 class="">Documentation: README</h4>
+        <p><strong>Status:</strong> <span class="passed">PASSED</span></p>
+        <p><strong>Message:</strong> README found</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "readme_files": [
+    "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\temp_test_plugin\\README.md"
+  ]
+}</pre>
+        </div>
+        </div>
+    <div class="result failed">
+        <h4 class="">Documentation: Docstrings</h4>
+        <p><strong>Status:</strong> <span class="failed">FAILED</span></p>
+        <p><strong>Message:</strong> Function docs: 0.0%, Class docs: 100.0%</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "total_functions": 3,
+  "documented_functions": 0,
+  "total_classes": 1,
+  "documented_classes": 1
+}</pre>
+        </div>
+        </div>
+    <div class="result passed">
+        <h4 class="">Dependencies: Conflicts</h4>
+        <p><strong>Status:</strong> <span class="passed">PASSED</span></p>
+        <p><strong>Message:</strong> No dependency conflicts</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "conflicts": [],
+  "packages": {}
+}</pre>
+        </div>
+        </div>
+    <div class="result failed">
+        <h4 class="critical">CRITICAL: Dependency Security</h4>
+        <p><strong>Status:</strong> <span class="failed">FAILED</span></p>
+        <p><strong>Message:</strong> Security vulnerabilities detected</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "output": "",
+  "errors": "C:\\Users\\KarlBotha\\AppData\\Local\\Programs\\Python\\Python311\\python.exe: No module named pip_audit\n"
+}</pre>
+        </div>
+        </div>
+    <div class="result passed">
+        <h4 class="">Performance: Import Time</h4>
+        <p><strong>Status:</strong> <span class="passed">PASSED</span></p>
+        <p><strong>Message:</strong> Average import: 0.0ms, Max: 0.0ms</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "import_times": [
+    {
+      "module": "temp_test_plugin.__init__",
+      "time_ms": 0,
+      "error": "No module named 'vpa'"
+    }
+  ],
+  "average_ms": 0.0,
+  "max_ms": 0
+}</pre>
+        </div>
+        </div>
+    <div class="result passed">
+        <h4 class="">Performance: Memory Usage</h4>
+        <p><strong>Status:</strong> <span class="passed">PASSED</span></p>
+        <p><strong>Message:</strong> Memory increase: 0.0MB</p>
+        <p><strong>Execution Time:</strong> 0.000s</p>
+        
+        <div class="details">
+            <strong>Details:</strong>
+            <pre>{
+  "baseline_mb": 21.78125,
+  "final_mb": 21.78125,
+  "increase_mb": 0.0
+}</pre>
+        </div>
+        </div>
+    
+    <h3>Resource Usage</h3>
+    <div class="details">
+        <pre>{
+  "memory_mb": 21.78125,
+  "cpu_percent": 0.0,
+  "open_files": 3,
+  "threads": 4
+}</pre>
+    </div>
+    
+    <h3>Dependencies</h3>
+    <div class="details">
+        <ul>
+        
+        </ul>
+    </div>
+    
+</body>
+</html>
+        

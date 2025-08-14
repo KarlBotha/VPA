@@ -1,0 +1,57 @@
+{
+  "current_voice": "voice_01",
+  "voices": {
+    "voice_01": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_02": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_03": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_04": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_05": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_06": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_07": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_08": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_09": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_10": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_11": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_12": {
+      "rate": 200,
+      "volume": 0.9
+    },
+    "voice_13": {
+      "rate": 200,
+      "volume": 0.9
+    }
+  }
+}

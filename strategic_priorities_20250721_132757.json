@@ -1,0 +1,112 @@
+[
+  {
+    "file_path": "src\\vpa\\core\\enterprise_expansion_intelligent_automation.py",
+    "line_count": 1490,
+    "coverage_pct": 0.0,
+    "missing_lines": 643,
+    "test_exists": true,
+    "test_empty": true,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_enterprise_expansion_intelligent_automation.py",
+    "priority_score": 25.0,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\core\\unified_audio_system.py",
+    "line_count": 903,
+    "coverage_pct": 0.0,
+    "missing_lines": 516,
+    "test_exists": false,
+    "test_empty": true,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_unified_audio_system.py",
+    "priority_score": 24.03,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\core\\global_rollout_manager.py",
+    "line_count": 840,
+    "coverage_pct": 0.0,
+    "missing_lines": 351,
+    "test_exists": false,
+    "test_empty": true,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_global_rollout_manager.py",
+    "priority_score": 23.4,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\core\\global_production_deployment.py",
+    "line_count": 772,
+    "coverage_pct": 0.0,
+    "missing_lines": 329,
+    "test_exists": false,
+    "test_empty": true,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_global_production_deployment.py",
+    "priority_score": 22.72,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\core\\auth_providers.py",
+    "line_count": 948,
+    "coverage_pct": 34.77088948787062,
+    "missing_lines": 242,
+    "test_exists": false,
+    "test_empty": true,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_auth_providers.py",
+    "priority_score": 21.00291105121294,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\gui\\enhanced_settings_window.py",
+    "line_count": 1954,
+    "coverage_pct": 0.0,
+    "missing_lines": 907,
+    "test_exists": true,
+    "test_empty": false,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\gui\\test_enhanced_settings_window.py",
+    "priority_score": 20.0,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\core\\global_scale_operations.py",
+    "line_count": 1228,
+    "coverage_pct": 0.0,
+    "missing_lines": 534,
+    "test_exists": true,
+    "test_empty": false,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_global_scale_operations.py",
+    "priority_score": 20.0,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\core\\llm_provider_manager.py",
+    "line_count": 1033,
+    "coverage_pct": 0.0,
+    "missing_lines": 482,
+    "test_exists": true,
+    "test_empty": false,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_llm_provider_manager.py",
+    "priority_score": 20.0,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\gui\\main_application.py",
+    "line_count": 997,
+    "coverage_pct": 0.0,
+    "missing_lines": 448,
+    "test_exists": true,
+    "test_empty": false,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\gui\\test_main_application.py",
+    "priority_score": 19.97,
+    "status": "needs_testing"
+  },
+  {
+    "file_path": "src\\vpa\\core\\quality_ux_enhancements.py",
+    "line_count": 1136,
+    "coverage_pct": 25.85551330798479,
+    "missing_lines": 390,
+    "test_exists": true,
+    "test_empty": false,
+    "test_file_path": "C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\tests\\core\\test_quality_ux_enhancements.py",
+    "priority_score": 17.41444866920152,
+    "status": "needs_testing"
+  }
+]

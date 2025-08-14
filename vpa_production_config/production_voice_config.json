@@ -1,0 +1,9 @@
+{
+  "deployment_date": "2025-07-16T17:25:11.097582",
+  "default_voice_id": "en-US-AriaNeural",
+  "default_voice_name": "Aria",
+  "user_approval_confirmed": true,
+  "legacy_fallback_enabled": false,
+  "voice_confirmation_required": true,
+  "audit_logging_enabled": true
+}

@@ -1,0 +1,11 @@
+2025-07-15 15:30:02,649 - tools.validation_framework - INFO - Starting validation for integration: audio
+2025-07-15 15:30:02,848 - tools.validation_framework - INFO - Validation completed in 0.20s
+2025-07-15 15:30:02,849 - tools.validation_framework - INFO - Starting validation for integration: test_plugin
+2025-07-15 15:30:03,013 - tools.validation_framework - INFO - Validation completed in 0.16s
+2025-07-15 15:30:03,013 - tools.validation_framework - INFO - HTML report generated: C:\Users\KarlBotha\AI_PROJECTS\VPA\reports\test_validation_report.html
+2025-07-15 15:30:03,028 - tools.validation_framework - INFO - Starting validation for integration: nonexistent
+2025-07-15 15:30:03,183 - tools.validation_framework - INFO - Validation completed in 0.16s
+2025-07-15 15:30:03,183 - tools.validation_framework - INFO - Starting validation for integration: test_invalid
+2025-07-15 15:30:03,340 - tools.validation_framework - INFO - Validation completed in 0.16s
+2025-07-15 15:30:03,340 - tools.validation_framework - INFO - Starting validation for integration: compliant_test
+2025-07-15 15:30:03,506 - tools.validation_framework - INFO - Validation completed in 0.17s

@@ -1,0 +1,165 @@
+2025-07-18 21:49:52,937 - vpa.__main__ - INFO - ============================================================
+2025-07-18 21:49:52,949 - vpa.__main__ - INFO - ============================================================
+2025-07-18 21:49:52,949 - vpa.__main__ - INFO - Environment check passed
+2025-07-18 21:49:52,949 - vpa.addons.addon_manager - INFO - Addon Manager initialized
+2025-07-18 21:49:52,949 - vpa.ai.addon_logic.addon_logic_coordinator - INFO - AddonLogicCoordinator initialized
+2025-07-18 21:49:52,949 - vpa.core.health - INFO - Registered health check: system_memory
+2025-07-18 21:49:52,949 - vpa.core.health - INFO - Registered health check: system_disk
+2025-07-18 21:49:52,949 - vpa.core.health - INFO - Registered health check: system_cpu
+2025-07-18 21:49:52,949 - vpa.core.resource_monitoring - INFO - Resource Monitoring Service initialized
+2025-07-18 21:49:52,949 - vpa.ai.ai_coordinator - INFO - Enhanced AI Coordinator initialized with advanced NLP and workflow planning
+2025-07-18 21:49:52,950 - vpa.core.app - INFO - VPA Core Service initialized with event-driven architecture
+2025-07-18 21:49:53,000 - vpa.core.app - INFO - Initializing VPA application...
+2025-07-18 21:49:53,001 - vpa.core.config - INFO - Configuration loaded from C:\Users\KarlBotha\AI_PROJECTS\VPA\config\default.yaml
+2025-07-18 21:49:53,001 - vpa.core.events - INFO - Event bus initialized
+2025-07-18 21:49:53,001 - vpa.core.plugins - INFO - Loading plugins...
+2025-07-18 21:49:53,001 - vpa.core.plugins - INFO - Discovered 2 plugins
+2025-07-18 21:49:53,002 - vpa.core.plugins - WARNING - No valid plugin interface found in: ai
+2025-07-18 21:49:53,030 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-07-18 21:49:53,031 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\KarlBotha\AI_PROJECTS\VPA\.venv\Lib\site-packages\comtypes\gen'
+2025-07-18 21:49:53,087 - audio.engine - INFO - pyttsx3 audio engine initialized successfully
+2025-07-18 21:49:53,088 - audio.engine - INFO - Detected 3 system voices
+2025-07-18 21:49:53,088 - audio.engine - INFO - Voice catalog created: 13/13 voices available
+2025-07-18 21:49:53,089 - audio.engine - INFO - Voice changed to: David
+2025-07-18 21:49:53,090 - audio.engine - INFO - Voice changed to: David
+2025-07-18 21:49:53,090 - audio.engine - INFO - User voice settings loaded
+2025-07-18 21:49:53,090 - audio.engine - INFO - Audio engine event handlers registered successfully
+2025-07-18 21:49:53,090 - vpa.core.plugins - INFO - Loaded plugin: audio (0.088s)
+2025-07-18 21:49:53,090 - vpa.core.plugins - INFO - Loaded 1 plugins in 0.089s
+2025-07-18 21:49:53,090 - vpa.core.app - INFO - VPA application initialized successfully in 0.090s
+2025-07-19 16:02:40,344 - vpa.__main__ - INFO - ============================================================
+2025-07-19 16:02:40,364 - vpa.__main__ - INFO - ============================================================
+2025-07-19 16:02:40,364 - vpa.__main__ - INFO - Environment check passed
+2025-07-19 16:02:40,368 - vpa.addons.addon_manager - INFO - Addon Manager initialized
+2025-07-19 16:02:40,368 - vpa.ai.addon_logic.addon_logic_coordinator - INFO - AddonLogicCoordinator initialized
+2025-07-19 16:02:40,368 - vpa.core.health - INFO - Registered health check: system_memory
+2025-07-19 16:02:40,368 - vpa.core.health - INFO - Registered health check: system_disk
+2025-07-19 16:02:40,368 - vpa.core.health - INFO - Registered health check: system_cpu
+2025-07-19 16:02:40,368 - vpa.core.resource_monitoring - INFO - Resource Monitoring Service initialized
+2025-07-19 16:02:40,369 - vpa.ai.ai_coordinator - INFO - Enhanced AI Coordinator initialized with advanced NLP and workflow planning
+2025-07-19 16:02:40,369 - vpa.core.app - INFO - VPA Core Service initialized with event-driven architecture
+2025-07-19 16:02:40,428 - vpa.__main__ - INFO - Starting VPA GUI Application...
+2025-07-19 16:02:40,428 - vpa.core.app - INFO - Initializing VPA application...
+2025-07-19 16:02:40,434 - vpa.core.config - INFO - Configuration loaded from C:\Users\KarlBotha\AI_PROJECTS\VPA\config\default.yaml
+2025-07-19 16:02:40,434 - vpa.core.events - INFO - Event bus initialized
+2025-07-19 16:02:40,434 - vpa.core.plugins - INFO - Loading plugins...
+2025-07-19 16:02:40,435 - vpa.core.plugins - INFO - Discovered 2 plugins
+2025-07-19 16:02:40,437 - vpa.core.plugins - WARNING - No valid plugin interface found in: ai
+2025-07-19 16:02:40,472 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-07-19 16:02:40,472 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\KarlBotha\AI_PROJECTS\VPA\.venv\Lib\site-packages\comtypes\gen'
+2025-07-19 16:02:40,540 - audio.engine - INFO - pyttsx3 audio engine initialized successfully
+2025-07-19 16:02:40,542 - audio.engine - INFO - Detected 3 system voices
+2025-07-19 16:02:40,542 - audio.engine - INFO - Voice catalog created: 13/13 voices available
+2025-07-19 16:02:40,543 - audio.engine - INFO - Voice changed to: David
+2025-07-19 16:02:40,547 - audio.engine - INFO - Voice changed to: David
+2025-07-19 16:02:40,547 - audio.engine - INFO - User voice settings loaded
+2025-07-19 16:02:40,547 - audio.engine - INFO - Audio engine event handlers registered successfully
+2025-07-19 16:02:40,547 - vpa.core.plugins - INFO - Loaded plugin: audio (0.111s)
+2025-07-19 16:02:40,547 - vpa.core.plugins - INFO - Loaded 1 plugins in 0.113s
+2025-07-19 16:02:40,548 - vpa.core.app - INFO - Performance: plugin_load took 0.114s
+2025-07-19 16:02:40,548 - vpa.core.app - INFO - Performance: total_init took 0.120s
+2025-07-19 16:02:40,548 - vpa.core.app - INFO - VPA application initialized successfully in 0.120s
+2025-08-13 17:03:32,097 - __main__ - INFO - ============================================================
+2025-08-13 17:03:32,097 - __main__ - INFO - ============================================================
+2025-08-13 17:03:32,097 - __main__ - INFO - Environment check passed
+2025-08-13 17:03:32,105 - vpa.addons.addon_manager - INFO - Addon Manager initialized
+2025-08-13 17:03:32,490 - vpa.ai.addon_logic.addon_logic_coordinator - INFO - AddonLogicCoordinator initialized
+2025-08-13 17:03:32,490 - vpa.core.health - INFO - Registered health check: system_memory
+2025-08-13 17:03:32,490 - vpa.core.health - INFO - Registered health check: system_disk
+2025-08-13 17:03:32,490 - vpa.core.health - INFO - Registered health check: system_cpu
+2025-08-13 17:03:32,490 - vpa.core.resource_monitoring - INFO - Resource Monitoring Service initialized
+2025-08-13 17:03:32,490 - vpa.ai.ai_coordinator - INFO - Enhanced AI Coordinator initialized with advanced NLP and workflow planning
+2025-08-13 17:03:32,490 - vpa.core.resource_monitor_core - INFO - Resource Monitor Core initialized
+2025-08-13 17:03:32,490 - vpa.core.app - INFO - Performance: core_service_init took 0.393s
+2025-08-13 17:03:32,490 - vpa.core.app - INFO - VPA Core Service initialized with event-driven architecture
+2025-08-13 17:03:32,547 - __main__ - INFO - Starting VPA GUI Application...
+2025-08-13 17:03:32,547 - vpa.core.app - INFO - Initializing VPA application...
+2025-08-13 17:03:32,547 - vpa.core.config - INFO - Configuration loaded from C:\Users\KarlBotha\AI_PROJECTS\VPA\config\default.yaml
+2025-08-13 17:03:32,547 - vpa.core.events - INFO - Event bus initialized
+2025-08-13 17:03:32,547 - vpa.core.plugins - INFO - Loading plugins...
+2025-08-13 17:03:32,547 - vpa.core.plugins - INFO - Discovered 2 plugins
+2025-08-13 17:03:32,547 - vpa.core.plugins - WARNING - No valid plugin interface found in: ai
+2025-08-13 17:03:32,587 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-13 17:03:32,587 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\KarlBotha\AI_PROJECTS\VPA\.venv\Lib\site-packages\comtypes\gen'
+2025-08-13 17:03:32,682 - audio.engine - INFO - pyttsx3 audio engine initialized successfully
+2025-08-13 17:03:32,683 - audio.engine - INFO - Detected 3 system voices
+2025-08-13 17:03:32,683 - audio.engine - INFO - Voice catalog created: 13/13 voices available
+2025-08-13 17:03:32,684 - audio.engine - INFO - Voice changed to: David
+2025-08-13 17:03:32,685 - audio.engine - INFO - Voice changed to: David
+2025-08-13 17:03:32,685 - audio.engine - INFO - User voice settings loaded
+2025-08-13 17:03:32,685 - audio.engine - INFO - Audio engine event handlers registered successfully
+2025-08-13 17:03:32,685 - vpa.core.plugins - INFO - Loaded plugin: audio (0.138s)
+2025-08-13 17:03:32,685 - vpa.core.plugins - INFO - Loaded 1 plugins in 0.138s
+2025-08-13 17:03:32,685 - vpa.core.app - INFO - Performance: plugin_load took 0.138s
+2025-08-13 17:03:32,686 - vpa.core.resource_monitor_core - INFO - Resource monitoring loop started
+2025-08-13 17:03:32,686 - vpa.core.resource_monitor_core - INFO - Resource monitoring started successfully
+2025-08-13 17:03:32,686 - vpa.core.app - INFO - Performance: total_init took 0.139s
+2025-08-13 17:03:32,686 - vpa.core.app - INFO - VPA application initialized successfully in 0.139s
+2025-08-13 17:03:45,122 - __main__ - INFO - ============================================================
+2025-08-13 17:03:45,128 - __main__ - INFO - ============================================================
+2025-08-13 17:03:45,128 - __main__ - INFO - Environment check passed
+2025-08-13 17:03:45,128 - vpa.addons.addon_manager - INFO - Addon Manager initialized
+2025-08-13 17:03:45,505 - vpa.ai.addon_logic.addon_logic_coordinator - INFO - AddonLogicCoordinator initialized
+2025-08-13 17:03:45,519 - vpa.core.health - INFO - Registered health check: system_memory
+2025-08-13 17:03:45,519 - vpa.core.health - INFO - Registered health check: system_disk
+2025-08-13 17:03:45,519 - vpa.core.health - INFO - Registered health check: system_cpu
+2025-08-13 17:03:45,519 - vpa.core.resource_monitoring - INFO - Resource Monitoring Service initialized
+2025-08-13 17:03:45,519 - vpa.ai.ai_coordinator - INFO - Enhanced AI Coordinator initialized with advanced NLP and workflow planning
+2025-08-13 17:03:45,519 - vpa.core.resource_monitor_core - INFO - Resource Monitor Core initialized
+2025-08-13 17:03:45,519 - vpa.core.app - INFO - Performance: core_service_init took 0.391s
+2025-08-13 17:03:45,519 - vpa.core.app - INFO - VPA Core Service initialized with event-driven architecture
+2025-08-13 17:03:45,572 - __main__ - INFO - Starting VPA GUI Application...
+2025-08-13 17:03:45,572 - vpa.core.app - INFO - Initializing VPA application...
+2025-08-13 17:03:45,572 - vpa.core.config - INFO - Configuration loaded from C:\Users\KarlBotha\AI_PROJECTS\VPA\config\default.yaml
+2025-08-13 17:03:45,572 - vpa.core.events - INFO - Event bus initialized
+2025-08-13 17:03:45,572 - vpa.core.plugins - INFO - Loading plugins...
+2025-08-13 17:03:45,572 - vpa.core.plugins - INFO - Discovered 2 plugins
+2025-08-13 17:03:45,572 - vpa.core.plugins - WARNING - No valid plugin interface found in: ai
+2025-08-13 17:03:45,603 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-13 17:03:45,603 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\KarlBotha\AI_PROJECTS\VPA\.venv\Lib\site-packages\comtypes\gen'
+2025-08-13 17:03:45,656 - audio.engine - INFO - pyttsx3 audio engine initialized successfully
+2025-08-13 17:03:45,656 - audio.engine - INFO - Detected 3 system voices
+2025-08-13 17:03:45,656 - audio.engine - INFO - Voice catalog created: 13/13 voices available
+2025-08-13 17:03:45,656 - audio.engine - INFO - Voice changed to: David
+2025-08-13 17:03:45,656 - audio.engine - INFO - Voice changed to: David
+2025-08-13 17:03:45,656 - audio.engine - INFO - User voice settings loaded
+2025-08-13 17:03:45,656 - audio.engine - INFO - Audio engine event handlers registered successfully
+2025-08-13 17:03:45,656 - vpa.core.plugins - INFO - Loaded plugin: audio (0.083s)
+2025-08-13 17:03:45,656 - vpa.core.plugins - INFO - Loaded 1 plugins in 0.083s
+2025-08-13 17:03:45,656 - vpa.core.resource_monitor_core - INFO - Resource monitoring loop started
+2025-08-13 17:03:45,656 - vpa.core.resource_monitor_core - INFO - Resource monitoring started successfully
+2025-08-13 17:03:45,656 - vpa.core.app - INFO - VPA application initialized successfully in 0.083s
+2025-08-13 17:03:51,330 - __main__ - INFO - ============================================================
+2025-08-13 17:03:51,335 - __main__ - INFO - ============================================================
+2025-08-13 17:03:51,335 - __main__ - INFO - Environment check passed
+2025-08-13 17:03:51,335 - vpa.addons.addon_manager - INFO - Addon Manager initialized
+2025-08-13 17:03:51,697 - vpa.ai.addon_logic.addon_logic_coordinator - INFO - AddonLogicCoordinator initialized
+2025-08-13 17:03:51,699 - vpa.core.health - INFO - Registered health check: system_memory
+2025-08-13 17:03:51,699 - vpa.core.health - INFO - Registered health check: system_disk
+2025-08-13 17:03:51,699 - vpa.core.health - INFO - Registered health check: system_cpu
+2025-08-13 17:03:51,699 - vpa.core.resource_monitoring - INFO - Resource Monitoring Service initialized
+2025-08-13 17:03:51,699 - vpa.ai.ai_coordinator - INFO - Enhanced AI Coordinator initialized with advanced NLP and workflow planning
+2025-08-13 17:03:51,700 - vpa.core.resource_monitor_core - INFO - Resource Monitor Core initialized
+2025-08-13 17:03:51,700 - vpa.core.app - INFO - Performance: core_service_init took 0.365s
+2025-08-13 17:03:51,700 - vpa.core.app - INFO - VPA Core Service initialized with event-driven architecture
+2025-08-13 17:03:51,751 - __main__ - INFO - Starting VPA GUI Application...
+2025-08-13 17:03:51,751 - vpa.core.app - INFO - Initializing VPA application...
+2025-08-13 17:03:51,751 - vpa.core.config - INFO - Configuration loaded from C:\Users\KarlBotha\AI_PROJECTS\VPA\config\default.yaml
+2025-08-13 17:03:51,751 - vpa.core.events - INFO - Event bus initialized
+2025-08-13 17:03:51,751 - vpa.core.plugins - INFO - Loading plugins...
+2025-08-13 17:03:51,751 - vpa.core.plugins - INFO - Discovered 2 plugins
+2025-08-13 17:03:51,751 - vpa.core.plugins - WARNING - No valid plugin interface found in: ai
+2025-08-13 17:03:51,787 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\KarlBotha\\AI_PROJECTS\\VPA\\.venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-13 17:03:51,787 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\KarlBotha\AI_PROJECTS\VPA\.venv\Lib\site-packages\comtypes\gen'
+2025-08-13 17:03:51,845 - audio.engine - INFO - pyttsx3 audio engine initialized successfully
+2025-08-13 17:03:51,845 - audio.engine - INFO - Detected 3 system voices
+2025-08-13 17:03:51,845 - audio.engine - INFO - Voice catalog created: 13/13 voices available
+2025-08-13 17:03:51,845 - audio.engine - INFO - Voice changed to: David
+2025-08-13 17:03:51,845 - audio.engine - INFO - Voice changed to: David
+2025-08-13 17:03:51,845 - audio.engine - INFO - User voice settings loaded
+2025-08-13 17:03:51,845 - audio.engine - INFO - Audio engine event handlers registered successfully
+2025-08-13 17:03:51,845 - vpa.core.plugins - INFO - Loaded plugin: audio (0.093s)
+2025-08-13 17:03:51,845 - vpa.core.plugins - INFO - Loaded 1 plugins in 0.093s
+2025-08-13 17:03:51,845 - vpa.core.resource_monitor_core - INFO - Resource monitoring loop started
+2025-08-13 17:03:51,845 - vpa.core.resource_monitor_core - INFO - Resource monitoring started successfully
+2025-08-13 17:03:51,845 - vpa.core.app - INFO - VPA application initialized successfully in 0.093s
