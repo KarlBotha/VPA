@@ -1,3 +1,0 @@
-[console_scripts]
-vpa-cli = vpa.cli.main:main
-vpa-main = vpa.__main__:main
